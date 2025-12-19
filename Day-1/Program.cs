@@ -2,8 +2,8 @@
 
 class Program
 {
-    static void Main(string[] args)
-    {
+    // static void Main(string[] args)
+    // {
         //Console.WriteLine(newname.Aoc.AreaofCircle(5)); 
 
 
@@ -127,5 +127,26 @@ class Program
         //     Console.WriteLine("The entered String is not Palindrome.");
         // }
 
-    }
+
+        //sum of first 5 numbers
+        // int count=0;
+        // int sum=0;
+        // while (count <= 5)
+        // {
+        //     sum+=count;
+        //     count++;
+        // }
+        // Console.WriteLine(sum);
+
+
+        //sum of first 5 numbers
+        // int count=5;
+        // int sum=0;
+        // while (count > 0)
+        // {
+        //     sum+=count;
+        //     count--;
+        // }
+        // Console.WriteLine(sum);
+    //}
 }
