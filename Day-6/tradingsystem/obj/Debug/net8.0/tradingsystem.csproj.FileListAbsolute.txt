@@ -1,0 +1,15 @@
+D:\C-sharp\tradingsystem\obj\Debug\net8.0\tradingsystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-sharp\tradingsystem\obj\Debug\net8.0\tradingsystem.AssemblyInfoInputs.cache
+D:\C-sharp\tradingsystem\obj\Debug\net8.0\tradingsystem.AssemblyInfo.cs
+D:\C-sharp\tradingsystem\obj\Debug\net8.0\tradingsystem.csproj.CoreCompileInputs.cache
+D:\C-sharp\tradingsystem\obj\Debug\net8.0\tradingsystem.sourcelink.json
+D:\C-sharp\tradingsystem\bin\Debug\net8.0\tradingsystem.exe
+D:\C-sharp\tradingsystem\bin\Debug\net8.0\tradingsystem.deps.json
+D:\C-sharp\tradingsystem\bin\Debug\net8.0\tradingsystem.runtimeconfig.json
+D:\C-sharp\tradingsystem\bin\Debug\net8.0\tradingsystem.dll
+D:\C-sharp\tradingsystem\bin\Debug\net8.0\tradingsystem.pdb
+D:\C-sharp\tradingsystem\obj\Debug\net8.0\tradingsystem.dll
+D:\C-sharp\tradingsystem\obj\Debug\net8.0\refint\tradingsystem.dll
+D:\C-sharp\tradingsystem\obj\Debug\net8.0\tradingsystem.pdb
+D:\C-sharp\tradingsystem\obj\Debug\net8.0\tradingsystem.genruntimeconfig.cache
+D:\C-sharp\tradingsystem\obj\Debug\net8.0\ref\tradingsystem.dll
