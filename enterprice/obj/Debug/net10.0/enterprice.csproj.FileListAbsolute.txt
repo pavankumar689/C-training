@@ -1,0 +1,15 @@
+D:\C-sharp\enterprice\bin\Debug\net10.0\enterprice.exe
+D:\C-sharp\enterprice\bin\Debug\net10.0\enterprice.deps.json
+D:\C-sharp\enterprice\bin\Debug\net10.0\enterprice.runtimeconfig.json
+D:\C-sharp\enterprice\bin\Debug\net10.0\enterprice.dll
+D:\C-sharp\enterprice\bin\Debug\net10.0\enterprice.pdb
+D:\C-sharp\enterprice\obj\Debug\net10.0\enterprice.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-sharp\enterprice\obj\Debug\net10.0\enterprice.AssemblyInfoInputs.cache
+D:\C-sharp\enterprice\obj\Debug\net10.0\enterprice.AssemblyInfo.cs
+D:\C-sharp\enterprice\obj\Debug\net10.0\enterprice.csproj.CoreCompileInputs.cache
+D:\C-sharp\enterprice\obj\Debug\net10.0\enterprice.sourcelink.json
+D:\C-sharp\enterprice\obj\Debug\net10.0\enterprice.dll
+D:\C-sharp\enterprice\obj\Debug\net10.0\refint\enterprice.dll
+D:\C-sharp\enterprice\obj\Debug\net10.0\enterprice.pdb
+D:\C-sharp\enterprice\obj\Debug\net10.0\enterprice.genruntimeconfig.cache
+D:\C-sharp\enterprice\obj\Debug\net10.0\ref\enterprice.dll
