@@ -1,0 +1,15 @@
+D:\C-sharp\Day-9\bin\Debug\net10.0\Day-9.exe
+D:\C-sharp\Day-9\bin\Debug\net10.0\Day-9.deps.json
+D:\C-sharp\Day-9\bin\Debug\net10.0\Day-9.runtimeconfig.json
+D:\C-sharp\Day-9\bin\Debug\net10.0\Day-9.dll
+D:\C-sharp\Day-9\bin\Debug\net10.0\Day-9.pdb
+D:\C-sharp\Day-9\obj\Debug\net10.0\Day-9.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-sharp\Day-9\obj\Debug\net10.0\Day-9.AssemblyInfoInputs.cache
+D:\C-sharp\Day-9\obj\Debug\net10.0\Day-9.AssemblyInfo.cs
+D:\C-sharp\Day-9\obj\Debug\net10.0\Day-9.csproj.CoreCompileInputs.cache
+D:\C-sharp\Day-9\obj\Debug\net10.0\Day-9.sourcelink.json
+D:\C-sharp\Day-9\obj\Debug\net10.0\Day-9.dll
+D:\C-sharp\Day-9\obj\Debug\net10.0\refint\Day-9.dll
+D:\C-sharp\Day-9\obj\Debug\net10.0\Day-9.pdb
+D:\C-sharp\Day-9\obj\Debug\net10.0\Day-9.genruntimeconfig.cache
+D:\C-sharp\Day-9\obj\Debug\net10.0\ref\Day-9.dll
