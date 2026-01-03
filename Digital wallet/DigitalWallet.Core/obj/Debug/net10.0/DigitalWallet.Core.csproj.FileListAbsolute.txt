@@ -1,0 +1,11 @@
+D:\C#_trining\Digital wallet\DigitalWallet.Core\bin\Debug\net10.0\DigitalWallet.Core.deps.json
+D:\C#_trining\Digital wallet\DigitalWallet.Core\bin\Debug\net10.0\DigitalWallet.Core.dll
+D:\C#_trining\Digital wallet\DigitalWallet.Core\bin\Debug\net10.0\DigitalWallet.Core.pdb
+D:\C#_trining\Digital wallet\DigitalWallet.Core\obj\Debug\net10.0\DigitalWallet.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\Digital wallet\DigitalWallet.Core\obj\Debug\net10.0\DigitalWallet.Core.AssemblyInfoInputs.cache
+D:\C#_trining\Digital wallet\DigitalWallet.Core\obj\Debug\net10.0\DigitalWallet.Core.AssemblyInfo.cs
+D:\C#_trining\Digital wallet\DigitalWallet.Core\obj\Debug\net10.0\DigitalWallet.Core.csproj.CoreCompileInputs.cache
+D:\C#_trining\Digital wallet\DigitalWallet.Core\obj\Debug\net10.0\DigitalWallet.Core.dll
+D:\C#_trining\Digital wallet\DigitalWallet.Core\obj\Debug\net10.0\refint\DigitalWallet.Core.dll
+D:\C#_trining\Digital wallet\DigitalWallet.Core\obj\Debug\net10.0\DigitalWallet.Core.pdb
+D:\C#_trining\Digital wallet\DigitalWallet.Core\obj\Debug\net10.0\ref\DigitalWallet.Core.dll

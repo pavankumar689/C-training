@@ -1,0 +1,4 @@
+29-12-2025 14:09:45 | FileNotFoundException | Could not find file 'D:\C-sharp\errorhandling\account.txt'.
+29-12-2025 14:10:28 | FileNotFoundException | Could not find file 'D:\C-sharp\errorhandling\account.txt'.
+29-12-2025 14:20:06 | FileNotFoundException | Could not find file 'D:\C-sharp\errorhandling\account.txt'.
+29-12-2025 14:22:39 | InsufficientBalanceException | Insufficient balance for withdrawal

@@ -1,0 +1,15 @@
+D:\C-sharp\exceptionhandling\bin\Debug\net10.0\exceptionhandling.exe
+D:\C-sharp\exceptionhandling\bin\Debug\net10.0\exceptionhandling.deps.json
+D:\C-sharp\exceptionhandling\bin\Debug\net10.0\exceptionhandling.runtimeconfig.json
+D:\C-sharp\exceptionhandling\bin\Debug\net10.0\exceptionhandling.dll
+D:\C-sharp\exceptionhandling\bin\Debug\net10.0\exceptionhandling.pdb
+D:\C-sharp\exceptionhandling\obj\Debug\net10.0\exceptionhandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-sharp\exceptionhandling\obj\Debug\net10.0\exceptionhandling.AssemblyInfoInputs.cache
+D:\C-sharp\exceptionhandling\obj\Debug\net10.0\exceptionhandling.AssemblyInfo.cs
+D:\C-sharp\exceptionhandling\obj\Debug\net10.0\exceptionhandling.csproj.CoreCompileInputs.cache
+D:\C-sharp\exceptionhandling\obj\Debug\net10.0\exceptionhandling.sourcelink.json
+D:\C-sharp\exceptionhandling\obj\Debug\net10.0\exceptionhandling.dll
+D:\C-sharp\exceptionhandling\obj\Debug\net10.0\refint\exceptionhandling.dll
+D:\C-sharp\exceptionhandling\obj\Debug\net10.0\exceptionhandling.pdb
+D:\C-sharp\exceptionhandling\obj\Debug\net10.0\exceptionhandling.genruntimeconfig.cache
+D:\C-sharp\exceptionhandling\obj\Debug\net10.0\ref\exceptionhandling.dll

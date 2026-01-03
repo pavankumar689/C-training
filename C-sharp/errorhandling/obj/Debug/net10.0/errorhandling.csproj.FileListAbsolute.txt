@@ -1,0 +1,15 @@
+D:\C-sharp\errorhandling\bin\Debug\net10.0\errorhandling.exe
+D:\C-sharp\errorhandling\bin\Debug\net10.0\errorhandling.deps.json
+D:\C-sharp\errorhandling\bin\Debug\net10.0\errorhandling.runtimeconfig.json
+D:\C-sharp\errorhandling\bin\Debug\net10.0\errorhandling.dll
+D:\C-sharp\errorhandling\bin\Debug\net10.0\errorhandling.pdb
+D:\C-sharp\errorhandling\obj\Debug\net10.0\errorhandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-sharp\errorhandling\obj\Debug\net10.0\errorhandling.AssemblyInfoInputs.cache
+D:\C-sharp\errorhandling\obj\Debug\net10.0\errorhandling.AssemblyInfo.cs
+D:\C-sharp\errorhandling\obj\Debug\net10.0\errorhandling.csproj.CoreCompileInputs.cache
+D:\C-sharp\errorhandling\obj\Debug\net10.0\errorhandling.sourcelink.json
+D:\C-sharp\errorhandling\obj\Debug\net10.0\errorhandling.dll
+D:\C-sharp\errorhandling\obj\Debug\net10.0\refint\errorhandling.dll
+D:\C-sharp\errorhandling\obj\Debug\net10.0\errorhandling.pdb
+D:\C-sharp\errorhandling\obj\Debug\net10.0\errorhandling.genruntimeconfig.cache
+D:\C-sharp\errorhandling\obj\Debug\net10.0\ref\errorhandling.dll
