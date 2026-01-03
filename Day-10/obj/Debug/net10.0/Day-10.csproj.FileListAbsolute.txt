@@ -1,0 +1,15 @@
+D:\C-sharp\Day-10\bin\Debug\net10.0\Day-10.exe
+D:\C-sharp\Day-10\bin\Debug\net10.0\Day-10.deps.json
+D:\C-sharp\Day-10\bin\Debug\net10.0\Day-10.runtimeconfig.json
+D:\C-sharp\Day-10\bin\Debug\net10.0\Day-10.dll
+D:\C-sharp\Day-10\bin\Debug\net10.0\Day-10.pdb
+D:\C-sharp\Day-10\obj\Debug\net10.0\Day-10.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-sharp\Day-10\obj\Debug\net10.0\Day-10.AssemblyInfoInputs.cache
+D:\C-sharp\Day-10\obj\Debug\net10.0\Day-10.AssemblyInfo.cs
+D:\C-sharp\Day-10\obj\Debug\net10.0\Day-10.csproj.CoreCompileInputs.cache
+D:\C-sharp\Day-10\obj\Debug\net10.0\Day-10.sourcelink.json
+D:\C-sharp\Day-10\obj\Debug\net10.0\Day-10.dll
+D:\C-sharp\Day-10\obj\Debug\net10.0\refint\Day-10.dll
+D:\C-sharp\Day-10\obj\Debug\net10.0\Day-10.pdb
+D:\C-sharp\Day-10\obj\Debug\net10.0\Day-10.genruntimeconfig.cache
+D:\C-sharp\Day-10\obj\Debug\net10.0\ref\Day-10.dll
