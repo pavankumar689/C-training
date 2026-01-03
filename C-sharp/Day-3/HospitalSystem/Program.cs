@@ -66,4 +66,11 @@ class Program2
 
     //     Console.WriteLine("Final Payable Amount: " + finalAmount);
     // }
+    static void Main(string[] args)
+    {
+        Console.WriteLine(Cardiology.TotalDoctors);
+        Cardiology c=new Cardiology(532957230);
+        c.DisplayTotalDoctors();
+        c.NonStaticMembers();
+    }
 }

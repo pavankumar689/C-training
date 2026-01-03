@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\obj\Debug\net8.0\HospitalSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\obj\Debug\net8.0\HospitalSystem.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\obj\Debug\net8.0\HospitalSystem.AssemblyInfo.cs
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\obj\Debug\net8.0\HospitalSystem.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\obj\Debug\net8.0\HospitalSystem.sourcelink.json
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\bin\Debug\net8.0\HospitalSystem.exe
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\bin\Debug\net8.0\HospitalSystem.deps.json
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\bin\Debug\net8.0\HospitalSystem.runtimeconfig.json
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\bin\Debug\net8.0\HospitalSystem.dll
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\bin\Debug\net8.0\HospitalSystem.pdb
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\obj\Debug\net8.0\HospitalSystem.dll
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\obj\Debug\net8.0\refint\HospitalSystem.dll
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\obj\Debug\net8.0\HospitalSystem.pdb
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\obj\Debug\net8.0\HospitalSystem.genruntimeconfig.cache
+D:\C#_trining\C-sharp\Day-3\HospitalSystem\obj\Debug\net8.0\ref\HospitalSystem.dll

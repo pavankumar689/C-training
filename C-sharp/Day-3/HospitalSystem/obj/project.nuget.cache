@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "u788vSP9V8M=",
+  "dgSpecHash": "ai3R+RK5gUk=",
   "success": true,
-  "projectFilePath": "D:\\C-sharp\\Day-4\\HospitalSystem\\HospitalSystem.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\C#_trining\\C-sharp\\Day-3\\HospitalSystem\\HospitalSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kanth\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\kanth\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\kanth\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\kanth\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }
