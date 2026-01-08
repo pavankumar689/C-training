@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\EcommerceOrder\bin\Debug\net10.0\EcommerceOrder.exe
+D:\C#_trining\C-sharp\EcommerceOrder\bin\Debug\net10.0\EcommerceOrder.deps.json
+D:\C#_trining\C-sharp\EcommerceOrder\bin\Debug\net10.0\EcommerceOrder.runtimeconfig.json
+D:\C#_trining\C-sharp\EcommerceOrder\bin\Debug\net10.0\EcommerceOrder.dll
+D:\C#_trining\C-sharp\EcommerceOrder\bin\Debug\net10.0\EcommerceOrder.pdb
+D:\C#_trining\C-sharp\EcommerceOrder\obj\Debug\net10.0\EcommerceOrder.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\EcommerceOrder\obj\Debug\net10.0\EcommerceOrder.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\EcommerceOrder\obj\Debug\net10.0\EcommerceOrder.AssemblyInfo.cs
+D:\C#_trining\C-sharp\EcommerceOrder\obj\Debug\net10.0\EcommerceOrder.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\EcommerceOrder\obj\Debug\net10.0\EcommerceOrder.sourcelink.json
+D:\C#_trining\C-sharp\EcommerceOrder\obj\Debug\net10.0\EcommerceOrder.dll
+D:\C#_trining\C-sharp\EcommerceOrder\obj\Debug\net10.0\refint\EcommerceOrder.dll
+D:\C#_trining\C-sharp\EcommerceOrder\obj\Debug\net10.0\EcommerceOrder.pdb
+D:\C#_trining\C-sharp\EcommerceOrder\obj\Debug\net10.0\EcommerceOrder.genruntimeconfig.cache
+D:\C#_trining\C-sharp\EcommerceOrder\obj\Debug\net10.0\ref\EcommerceOrder.dll
