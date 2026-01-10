@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\obj\Debug\net10.0\sugarBlissBakery.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\obj\Debug\net10.0\sugarBlissBakery.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\obj\Debug\net10.0\sugarBlissBakery.AssemblyInfo.cs
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\obj\Debug\net10.0\sugarBlissBakery.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\obj\Debug\net10.0\sugarBlissBakery.sourcelink.json
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\bin\Debug\net10.0\sugarBlissBakery.exe
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\bin\Debug\net10.0\sugarBlissBakery.deps.json
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\bin\Debug\net10.0\sugarBlissBakery.runtimeconfig.json
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\bin\Debug\net10.0\sugarBlissBakery.dll
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\bin\Debug\net10.0\sugarBlissBakery.pdb
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\obj\Debug\net10.0\sugarBlissBakery.dll
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\obj\Debug\net10.0\refint\sugarBlissBakery.dll
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\obj\Debug\net10.0\sugarBlissBakery.pdb
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\obj\Debug\net10.0\sugarBlissBakery.genruntimeconfig.cache
+D:\C#_trining\C-sharp\saturdayAssessments\sugarBlissBakery\obj\Debug\net10.0\ref\sugarBlissBakery.dll
