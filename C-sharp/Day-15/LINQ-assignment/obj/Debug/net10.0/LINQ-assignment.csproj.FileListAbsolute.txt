@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\obj\Debug\net10.0\LINQ-assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\obj\Debug\net10.0\LINQ-assignment.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\obj\Debug\net10.0\LINQ-assignment.AssemblyInfo.cs
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\obj\Debug\net10.0\LINQ-assignment.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\obj\Debug\net10.0\LINQ-assignment.sourcelink.json
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\bin\Debug\net10.0\LINQ-assignment.exe
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\bin\Debug\net10.0\LINQ-assignment.deps.json
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\bin\Debug\net10.0\LINQ-assignment.runtimeconfig.json
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\bin\Debug\net10.0\LINQ-assignment.dll
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\bin\Debug\net10.0\LINQ-assignment.pdb
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\obj\Debug\net10.0\LINQ-assignment.dll
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\obj\Debug\net10.0\refint\LINQ-assignment.dll
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\obj\Debug\net10.0\LINQ-assignment.pdb
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\obj\Debug\net10.0\LINQ-assignment.genruntimeconfig.cache
+D:\C#_trining\C-sharp\Day-15\LINQ-assignment\obj\Debug\net10.0\ref\LINQ-assignment.dll
