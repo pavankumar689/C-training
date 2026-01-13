@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\bin\Debug\net10.0\SDLC-LifeCycle.exe
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\bin\Debug\net10.0\SDLC-LifeCycle.deps.json
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\bin\Debug\net10.0\SDLC-LifeCycle.runtimeconfig.json
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\bin\Debug\net10.0\SDLC-LifeCycle.dll
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\bin\Debug\net10.0\SDLC-LifeCycle.pdb
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\obj\Debug\net10.0\SDLC-LifeCycle.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\obj\Debug\net10.0\SDLC-LifeCycle.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\obj\Debug\net10.0\SDLC-LifeCycle.AssemblyInfo.cs
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\obj\Debug\net10.0\SDLC-LifeCycle.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\obj\Debug\net10.0\SDLC-LifeCycle.sourcelink.json
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\obj\Debug\net10.0\SDLC-LifeCycle.dll
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\obj\Debug\net10.0\refint\SDLC-LifeCycle.dll
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\obj\Debug\net10.0\SDLC-LifeCycle.pdb
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\obj\Debug\net10.0\SDLC-LifeCycle.genruntimeconfig.cache
+D:\C#_trining\C-sharp\Day-16\SDLC-LifeCycle\obj\Debug\net10.0\ref\SDLC-LifeCycle.dll
