@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\Day-18\bin\Debug\net10.0\Day-18.exe
+D:\C#_trining\C-sharp\Day-18\bin\Debug\net10.0\Day-18.deps.json
+D:\C#_trining\C-sharp\Day-18\bin\Debug\net10.0\Day-18.runtimeconfig.json
+D:\C#_trining\C-sharp\Day-18\bin\Debug\net10.0\Day-18.dll
+D:\C#_trining\C-sharp\Day-18\bin\Debug\net10.0\Day-18.pdb
+D:\C#_trining\C-sharp\Day-18\obj\Debug\net10.0\Day-18.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\Day-18\obj\Debug\net10.0\Day-18.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\Day-18\obj\Debug\net10.0\Day-18.AssemblyInfo.cs
+D:\C#_trining\C-sharp\Day-18\obj\Debug\net10.0\Day-18.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\Day-18\obj\Debug\net10.0\Day-18.sourcelink.json
+D:\C#_trining\C-sharp\Day-18\obj\Debug\net10.0\Day-18.dll
+D:\C#_trining\C-sharp\Day-18\obj\Debug\net10.0\refint\Day-18.dll
+D:\C#_trining\C-sharp\Day-18\obj\Debug\net10.0\Day-18.pdb
+D:\C#_trining\C-sharp\Day-18\obj\Debug\net10.0\Day-18.genruntimeconfig.cache
+D:\C#_trining\C-sharp\Day-18\obj\Debug\net10.0\ref\Day-18.dll
