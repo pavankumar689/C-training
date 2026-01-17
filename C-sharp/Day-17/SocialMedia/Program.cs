@@ -26,8 +26,7 @@ namespace MiniSocialMedia
         public string Email { get; init; }
 
         private readonly List<Post> _posts = new();
-        private readonly HashSet<string> _following =
-            new(StringComparer.OrdinalIgnoreCase);
+        private readonly HashSet<string> _following = new(StringComparer.OrdinalIgnoreCase);
 
         public event Action<Post>? OnNewPost;
 
@@ -39,7 +38,7 @@ namespace MiniSocialMedia
             username = username.Trim();
 
             email = email.Trim().ToLower();
-            string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+            var pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             if (!Regex.IsMatch(email, pattern))
                 throw new SocialException("Invalid email format");
 
@@ -55,8 +54,7 @@ namespace MiniSocialMedia
             _following.Add(username);
         }
 
-        public bool IsFollowing(string username) =>
-            _following.Contains(username);
+        public bool IsFollowing(string username) => _following.Contains(username);
 
         public void AddPost(string content)
         {
@@ -70,20 +68,20 @@ namespace MiniSocialMedia
 
             var post = new Post(this, content);
             _posts.Add(post);
-
             OnNewPost?.Invoke(post);
         }
 
-        public IReadOnlyList<Post> GetPosts() =>
-            _posts.AsReadOnly();
+        public IReadOnlyList<Post> GetPosts() => _posts.AsReadOnly();
 
         public int CompareTo(User? other)
         {
-            if (other is null) return 1;
+            if (other == null) return 1;
             return string.Compare(Username, other.Username, StringComparison.OrdinalIgnoreCase);
         }
 
         public override string ToString() => $"@{Username}";
+
+        internal IEnumerable<string> GetFollowingInternal() => _following;
     }
 
     public partial class User
@@ -112,7 +110,6 @@ namespace MiniSocialMedia
         public override string ToString()
         {
             var sb = new StringBuilder();
-
             sb.AppendLine($"{Author} • {CreatedAt:MMM dd HH:mm}");
             sb.AppendLine(Content);
 
@@ -132,12 +129,8 @@ namespace MiniSocialMedia
         private readonly List<T> _items = new();
 
         public void Add(T item) => _items.Add(item);
-
-        public IReadOnlyList<T> GetAll() =>
-            _items.AsReadOnly();
-
-        public T? Find(Predicate<T> match) =>
-            _items.Find(match);
+        public IReadOnlyList<T> GetAll() => _items.AsReadOnly();
+        public T? Find(Predicate<T> match) => _items.Find(match);
     }
 
     public static class SocialUtils
@@ -148,26 +141,35 @@ namespace MiniSocialMedia
 
             if (diff.TotalSeconds < 60)
                 return "just now";
-
             if (diff.TotalMinutes < 60)
                 return $"{(int)diff.TotalMinutes} min ago";
-
             if (diff.TotalHours < 24)
                 return $"{(int)diff.TotalHours} h ago";
 
             return time.ToString("MMM dd");
         }
     }
+
+    public static class UserExtensions
+    {
+        public static IEnumerable<string> GetFollowingNames(this User user)
+        {
+            return user.GetFollowingInternal();
+        }
+    }
+
     class Program
     {
-        private static Repository<User> _users = new();
+        private static readonly Repository<User> _users = new();
         private static User? _currentUser;
-
-        private static readonly string _dataFile = "users.json";
+        private static readonly string _dataFile = "social-data.json";
         private static readonly string _logFile = "errors.log";
 
         static void Main()
         {
+            Console.Title = "MiniSocial - Console Edition";
+            Console.WriteLine("=== MiniSocial ===");
+
             LoadData();
 
             while (true)
@@ -179,18 +181,27 @@ namespace MiniSocialMedia
                     else
                         ShowMainMenu();
                 }
+                catch (SocialException ex)
+                {
+                    ConsoleColorWrite(ConsoleColor.Red, $"Error: {ex.Message}");
+                    if (ex.InnerException != null)
+                        ConsoleColorWrite(ConsoleColor.Red, ex.InnerException.Message);
+                }
                 catch (Exception ex)
                 {
+                    Console.WriteLine("Unexpected Error!!");
+                    Console.WriteLine(ex);
                     LogError(ex);
-                    ConsoleColorWrite(ex.Message, ConsoleColor.Red);
                 }
+
+                Console.WriteLine("Press any key to continue...");
+                Console.ReadKey(true);
             }
         }
 
         static void ShowLoginMenu()
         {
-            Console.WriteLine("\n--- MiniSocial ---");
-            Console.WriteLine("1. Register");
+            Console.WriteLine("\n1. Register");
             Console.WriteLine("2. Login");
             Console.WriteLine("0. Exit");
             Console.Write("Choice: ");
@@ -206,121 +217,200 @@ namespace MiniSocialMedia
         static void Register()
         {
             Console.Write("Username: ");
-            string username = Console.ReadLine()!;
+            var username = Console.ReadLine();
 
             Console.Write("Email: ");
-            string email = Console.ReadLine()!;
+            var email = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(email))
+                throw new SocialException("Invalid input");
+
+            if (_users.Find(u => u.Username.Equals(username, StringComparison.OrdinalIgnoreCase)) != null)
+                throw new SocialException("Username already exists");
 
             var user = new User(username, email);
-            user.OnNewPost += _ => ConsoleColorWrite("New post created!", ConsoleColor.Green);
-
             _users.Add(user);
-            ConsoleColorWrite("User registered successfully", ConsoleColor.Green);
+
+            ConsoleColorWrite(ConsoleColor.Green, $"Welcome {user.Username}!");
         }
 
         static void Login()
         {
-            Console.Write("Enter username: ");
-            string username = Console.ReadLine()!;
+            Console.Write("Username: ");
+            var username = Console.ReadLine();
 
-            _currentUser = _users.Find(u =>
-                u.Username.Equals(username, StringComparison.OrdinalIgnoreCase));
-
-            if (_currentUser == null)
+            var user = _users.Find(u => u.Username.Equals(username, StringComparison.OrdinalIgnoreCase));
+            if (user == null)
                 throw new SocialException("User not found");
 
-            ConsoleColorWrite($"Welcome {_currentUser.Username}!", ConsoleColor.Green);
+            _currentUser = user;
+            _currentUser.OnNewPost += p =>
+            {
+                var preview = p.Content.Length > 40 ? p.Content[..40] + "..." : p.Content;
+                ConsoleColorWrite(ConsoleColor.Cyan, $"New post by {p.Author}: {preview}");
+            };
+
+            ConsoleColorWrite(ConsoleColor.Green, $"Logged in as {user.Username}!");
         }
 
         static void ShowMainMenu()
         {
             Console.WriteLine($"\nLogged in as {_currentUser}");
-            Console.WriteLine("1. Post Message");
-            Console.WriteLine("2. View Timeline");
-            Console.WriteLine("3. Follow User");
-            Console.WriteLine("4. List Users");
-            Console.WriteLine("5. Logout");
+            Console.WriteLine("1. Post message");
+            Console.WriteLine("2. View my posts");
+            Console.WriteLine("3. View timeline");
+            Console.WriteLine("4. Follow user");
+            Console.WriteLine("5. List users");
+            Console.WriteLine("6. Logout");
+            Console.WriteLine("0. Exit and save");
             Console.Write("Choice: ");
 
             switch (Console.ReadLine())
             {
                 case "1": PostMessage(); break;
-                case "2": ShowTimeline(); break;
-                case "3": FollowUser(); break;
-                case "4": ListUsers(); break;
-                case "5": _currentUser = null; break;
+                case "2": ShowPosts(_currentUser!.GetPosts()); break;
+                case "3": ShowTimeline(); break;
+                case "4": FollowUser(); break;
+                case "5": ListUsers(); break;
+                case "6": _currentUser = null; break;
+                case "0": SaveData(); Environment.Exit(0); break;
             }
         }
 
         static void PostMessage()
         {
-            Console.Write("Enter post: ");
-            string content = Console.ReadLine()!;
+            Console.WriteLine("Max 280 characters. Empty input cancels.");
+            Console.Write("Post: ");
+            var content = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(content))
+            {
+                Console.WriteLine("Post cancelled.");
+                return;
+            }
+
             _currentUser!.AddPost(content);
+            ConsoleColorWrite(ConsoleColor.Green, "Post published!");
         }
 
         static void ShowTimeline()
         {
-            var timeline =
-                _users.GetAll()
-                      .Where(u => u.Username == _currentUser!.Username ||
-                                  _currentUser.IsFollowing(u.Username))
-                      .SelectMany(u => u.GetPosts())
-                      .OrderByDescending(p => p.CreatedAt);
+            var timeline = new List<Post>();
+            timeline.AddRange(_currentUser!.GetPosts());
 
-            foreach (var post in timeline)
+            foreach (var name in _currentUser.GetFollowingNames())
+            {
+                var user = _users.Find(u => u.Username.Equals(name, StringComparison.OrdinalIgnoreCase));
+                if (user != null)
+                    timeline.AddRange(user.GetPosts());
+            }
+
+            var sorted = timeline.OrderByDescending(p => p.CreatedAt);
+            Console.WriteLine("=== Your Timeline ===");
+            ShowPosts(sorted);
+        }
+
+        static void ShowPosts(IEnumerable<Post> posts)
+        {
+            int count = 0;
+
+            foreach (var post in posts.Take(20))
             {
                 Console.WriteLine(post);
                 Console.WriteLine($"({post.CreatedAt.FormatTimeAgo()})");
                 Console.WriteLine(new string('-', 40));
+                count++;
             }
+
+            if (count == 0)
+                Console.WriteLine("No posts yet.");
         }
 
         static void FollowUser()
         {
-            Console.Write("Enter username to follow: ");
-            string username = Console.ReadLine()!;
+            Console.Write("Username to follow: ");
+            var username = Console.ReadLine()?.Trim();
+
+            if (string.IsNullOrWhiteSpace(username))
+            {
+                Console.WriteLine("Cancelled.");
+                return;
+            }
+
+            var target = _users.Find(u => u.Username.Equals(username, StringComparison.OrdinalIgnoreCase));
+            if (target == null)
+            {
+                Console.WriteLine("User not found.");
+                return;
+            }
+
             _currentUser!.Follow(username);
-            ConsoleColorWrite("Followed successfully", ConsoleColor.Green);
+            ConsoleColorWrite(ConsoleColor.Green, $"Now following @{username}");
         }
 
         static void ListUsers()
         {
+            Console.WriteLine("Registered users:");
             foreach (var user in _users.GetAll().OrderBy(u => u))
-                Console.WriteLine(user.GetDisplayName());
+                Console.WriteLine($"{user,-20} {user.Email}");
         }
 
         static void SaveData()
         {
-            var json = JsonSerializer.Serialize(_users.GetAll(),
-                new JsonSerializerOptions { WriteIndented = true });
+            try
+            {
+                var data = _users.GetAll().Select(u => new
+                {
+                    u.Username,
+                    u.Email,
+                    Following = u.GetFollowingNames().ToList(),
+                    Posts = u.GetPosts().Select(p => new
+                    {
+                        p.Content,
+                        p.CreatedAt
+                    }).ToList()
+                });
 
-            File.WriteAllText(_dataFile, json);
+                var json = JsonSerializer.Serialize(data, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(_dataFile, json);
+                Console.WriteLine("Data saved.");
+            }
+            catch (Exception ex)
+            {
+                LogError(ex);
+                Console.WriteLine("Failed to save data.");
+            }
         }
 
         static void LoadData()
         {
-            if (!File.Exists(_dataFile)) return;
-
-            var json = File.ReadAllText(_dataFile);
-            var users = JsonSerializer.Deserialize<List<User>>(json);
-
-            if (users == null) return;
-
-            foreach (var user in users)
-                _users.Add(user);
+            try
+            {
+                if (!File.Exists(_dataFile)) return;
+                File.ReadAllText(_dataFile);
+            }
+            catch (Exception ex)
+            {
+                LogError(ex);
+                Console.WriteLine("Failed to load data.");
+            }
         }
 
         static void LogError(Exception ex)
         {
-            File.AppendAllText(_logFile, $"{DateTime.Now}: {ex}\n");
+            try
+            {
+                File.AppendAllText(_logFile,
+                    $"{DateTime.Now}\n{ex.Message}\n{ex.StackTrace}\n\n");
+            }
+            catch { }
         }
 
-        static void ConsoleColorWrite(string message, ConsoleColor color)
+        static void ConsoleColorWrite(ConsoleColor color, string text)
         {
             var old = Console.ForegroundColor;
             Console.ForegroundColor = color;
-            Console.WriteLine(message);
+            Console.WriteLine(text);
             Console.ForegroundColor = old;
         }
     }
