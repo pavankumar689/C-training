@@ -1,105 +1,166 @@
-﻿public interface IFilm
+﻿//class program
+//{
+//    public static void Main(string[] args)
+//    {
+//        List<int>Numbers_Divisible_by_2=new List<int>();
+//        List<int>Numbers_Divisible_by_3=new List<int>();
+//        List<int>Numbers_That_do_not_divisible=new List<int>();
+//        for(int i = 1; i < 100; i++)
+//        {
+//            if (i % 2 == 0)
+//            {
+//                Numbers_Divisible_by_2.Add(i);
+//            }
+//            if (i % 3 == 0)
+//            {
+//                Numbers_Divisible_by_3.Add(i);
+//            }
+//            int count=0;
+//            for(int j = 2; j < i; j++)
+//            {
+//                if (i % j == 0)
+//                {
+//                    count++;
+//                }
+//            }
+//            if (count == 0)
+//            {
+//                Numbers_That_do_not_divisible.Add(i);
+//            }
+//        }
+
+//        Console.WriteLine("Prime Numbers");
+//        foreach(int i in Numbers_That_do_not_divisible)
+//        {
+//            Console.WriteLine(i);
+//        }
+
+//        Console.WriteLine("Numbers Divisible by 2");
+//        foreach(int i in Numbers_Divisible_by_2)
+//        {
+//            Console.WriteLine(i);
+//        }
+
+//        Console.WriteLine("Numbers Divisible by 3");
+//        foreach(int i in Numbers_Divisible_by_3)
+//        {
+//            Console.WriteLine(i);
+//        }
+//        Console.ReadKey();
+//    }
+//}
+
+//interface Igear
+//{
+//    public void gear1();
+//    public void gear2();
+//    public void gear3();
+//    public void gear4();
+//    public void gear5();
+//    public void reversegear();
+//}
+//class car : Igear
+//{
+//    public void gear1()
+//    {
+//        Console.WriteLine("Grear 1 tested");
+//    }
+//    public void gear2()
+//    {
+//        Console.WriteLine("Grear 2 tested");
+//    }
+//    public void gear3()
+//    {
+//        Console.WriteLine("Grear 3 tested");
+//    }
+//    public void gear4()
+//    {
+//        Console.WriteLine("Grear 4 tested");
+//    }
+//    public void gear5()
+//    {
+//        Console.WriteLine("Grear 5 tested");
+//    }
+//    public void reversegear()
+//    {
+//        Console.WriteLine("Reverse gear");
+//    }
+//}
+
+//class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        //Igear car1 = new car();
+//        //car1.gear1();
+//        //car1.gear2();
+//        //car1.gear3();
+//        //car1.gear4();
+//        //car1.gear5();
+//        //car1.reversegear();
+//        nano car1 = new car();
+//        car1.gear1();
+//        car1.gear2();
+//    }
+//}
+
+//abstract class nano
+//{
+//    public abstract void gear1();
+//    public abstract void gear2();
+//    public virtual void airbag()
+//    {
+//        Console.WriteLine("Air break implemented");
+//    }
+//    public virtual void Audio()
+//    {
+//        Console.WriteLine("Audio implemented");
+//    }
+//}
+
+//class car : nano
+//{
+//    public override void gear1()
+//    {
+//        Console.WriteLine("gear 1 mandetory");
+//    }
+//    public override void gear2()
+//    {
+//        Console.WriteLine("gear 2 mandetory");
+//    }
+//}
+
+//delegate int Addition(int a, int b);
+//delegate int findlen(string c);
+
+class program
 {
-    string Title { get; set; }
-    string Director { get; set; }
-    int Year { get; set; }
+    //public static int add(int a, int b)
+    //{
+    //    return a + b;
+    //}
+    //public static int Sub(int a, int b)
+    //{
+    //    return a - b;
+    //}
+    //public static int len(string c)
+    //{
+    //    return c.Length;
+    //}
+    public static void Main(string[] args)
+    {
+        //Addition a = add;
+        //Console.WriteLine(a(5, 2));
+        //a = Sub;
+        //Console.WriteLine(a(7, 2));
+        //findlen f = len;
+        //Console.WriteLine(f("pavan")); 
+        //int[] arr = { 23, 252, 35, 2, 6, 4, 3, 7, 45, 7, 34, 23, 64 };
+        //var temp = from i in arr where i > 40 orderby i descending select i ;
+        //foreach(int i in temp)
+        //{
+        //    Console.WriteLine(i);
+        //}
+    }
 }
 
-public interface IFilmLibrary
-{
-    void AddFilm(IFilm film);
-    void RemoveFilm(string title);
-    List<IFilm> GetFilms();
-    List<IFilm> SearchFilm(string query);
-    int GetTotalFilmCount();
-}
-public class Film : IFilm
-{
-    public string Title { get; set; }
-    public string Director { get; set; }
-    public int Year { get; set; }
-}
-public class FilmLibrary : IFilmLibrary
-{
-    private List<IFilm> _films;
-
-    public FilmLibrary()
-    {
-        _films = new List<IFilm>();
-    }
-
-    public void AddFilm(IFilm film)
-    {
-        _films.Add(film);
-    }
-
-    public void RemoveFilm(string title)
-    {
-        var filmToRemove = _films.FirstOrDefault(f => f.Title == title);
-
-        if (filmToRemove != null)
-        {
-            _films.Remove(filmToRemove);
-        }
-        else
-        {
-            Console.WriteLine("Film with this title is not present");
-        }
-    }
-
-    public List<IFilm> GetFilms()
-    {
-        return _films;
-    }
-
-    public List<IFilm> SearchFilm(string query)
-    {
-        return _films
-            .Where(f => f.Title.Contains(query, StringComparison.OrdinalIgnoreCase)
-                     || f.Director.Contains(query, StringComparison.OrdinalIgnoreCase))
-            .ToList();
-    }
-
-    public int GetTotalFilmCount()
-    {
-        return _films.Count;
-    }
-}
-class Program
-{
-    static void Main()
-    {
-        IFilmLibrary library = new FilmLibrary();
-
-        library.AddFilm(new Film
-        {
-            Title = "Inception",
-            Director = "Christopher Nolan",
-            Year = 2010
-        });
-
-        library.AddFilm(new Film
-        {
-            Title = "Interstellar",
-            Director = "Christopher Nolan",
-            Year = 2014
-        });
-
-        Console.WriteLine("All Films:");
-        foreach (var film in library.GetFilms())
-        {
-            Console.WriteLine($"{film.Title} - {film.Director} - {film.Year}");
-        }
-
-        Console.WriteLine("\nSearch Results (Nolan):");
-        var results = library.SearchFilm("Nolan");
-        foreach (var film in results)
-        {
-            Console.WriteLine(film.Title);
-        }
-
-        library.RemoveFilm("Inception");
-
-        Console.WriteLine($"\nTotal Films: {library.GetTotalFilmCount()}");
-    }
-}
