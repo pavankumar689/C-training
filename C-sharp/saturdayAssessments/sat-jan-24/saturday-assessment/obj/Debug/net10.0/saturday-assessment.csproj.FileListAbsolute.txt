@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\saturday-assessment\bin\Debug\net10.0\saturday-assessment.exe
+D:\C#_trining\C-sharp\saturday-assessment\bin\Debug\net10.0\saturday-assessment.deps.json
+D:\C#_trining\C-sharp\saturday-assessment\bin\Debug\net10.0\saturday-assessment.runtimeconfig.json
+D:\C#_trining\C-sharp\saturday-assessment\bin\Debug\net10.0\saturday-assessment.dll
+D:\C#_trining\C-sharp\saturday-assessment\bin\Debug\net10.0\saturday-assessment.pdb
+D:\C#_trining\C-sharp\saturday-assessment\obj\Debug\net10.0\saturday-assessment.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\saturday-assessment\obj\Debug\net10.0\saturday-assessment.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\saturday-assessment\obj\Debug\net10.0\saturday-assessment.AssemblyInfo.cs
+D:\C#_trining\C-sharp\saturday-assessment\obj\Debug\net10.0\saturday-assessment.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\saturday-assessment\obj\Debug\net10.0\saturday-assessment.sourcelink.json
+D:\C#_trining\C-sharp\saturday-assessment\obj\Debug\net10.0\saturday-assessment.dll
+D:\C#_trining\C-sharp\saturday-assessment\obj\Debug\net10.0\refint\saturday-assessment.dll
+D:\C#_trining\C-sharp\saturday-assessment\obj\Debug\net10.0\saturday-assessment.pdb
+D:\C#_trining\C-sharp\saturday-assessment\obj\Debug\net10.0\saturday-assessment.genruntimeconfig.cache
+D:\C#_trining\C-sharp\saturday-assessment\obj\Debug\net10.0\ref\saturday-assessment.dll
