@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\customsorting\obj\Debug\net10.0\customsorting.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\customsorting\obj\Debug\net10.0\customsorting.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\customsorting\obj\Debug\net10.0\customsorting.AssemblyInfo.cs
+D:\C#_trining\C-sharp\customsorting\obj\Debug\net10.0\customsorting.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\customsorting\obj\Debug\net10.0\customsorting.sourcelink.json
+D:\C#_trining\C-sharp\customsorting\bin\Debug\net10.0\customsorting.exe
+D:\C#_trining\C-sharp\customsorting\bin\Debug\net10.0\customsorting.deps.json
+D:\C#_trining\C-sharp\customsorting\bin\Debug\net10.0\customsorting.runtimeconfig.json
+D:\C#_trining\C-sharp\customsorting\bin\Debug\net10.0\customsorting.dll
+D:\C#_trining\C-sharp\customsorting\bin\Debug\net10.0\customsorting.pdb
+D:\C#_trining\C-sharp\customsorting\obj\Debug\net10.0\customsorting.dll
+D:\C#_trining\C-sharp\customsorting\obj\Debug\net10.0\refint\customsorting.dll
+D:\C#_trining\C-sharp\customsorting\obj\Debug\net10.0\customsorting.pdb
+D:\C#_trining\C-sharp\customsorting\obj\Debug\net10.0\customsorting.genruntimeconfig.cache
+D:\C#_trining\C-sharp\customsorting\obj\Debug\net10.0\ref\customsorting.dll
