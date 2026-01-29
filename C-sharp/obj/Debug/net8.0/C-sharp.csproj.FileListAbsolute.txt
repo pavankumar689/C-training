@@ -13,3 +13,11 @@ D:\C-sharp\obj\Debug\net8.0\C-sharp.pdb
 D:\C-sharp\obj\Debug\net8.0\C-sharp.genruntimeconfig.cache
 D:\C-sharp\obj\Debug\net8.0\ref\C-sharp.dll
 D:\C-sharp\obj\Debug\net8.0\C-sharp.sourcelink.json
+D:\C#_trining\C-sharp\obj\Debug\net8.0\C-sharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\obj\Debug\net8.0\C-sharp.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\obj\Debug\net8.0\C-sharp.AssemblyInfo.cs
+D:\C#_trining\C-sharp\obj\Debug\net8.0\C-sharp.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\obj\Debug\net8.0\C-sharp.sourcelink.json
+D:\C#_trining\C-sharp\obj\Debug\net8.0\C-sharp.dll
+D:\C#_trining\C-sharp\obj\Debug\net8.0\refint\C-sharp.dll
+D:\C#_trining\C-sharp\obj\Debug\net8.0\C-sharp.pdb
