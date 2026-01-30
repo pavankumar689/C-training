@@ -1,0 +1,15 @@
+D:\C#_trining\c-sharp\classroom\obj\Debug\net10.0\class room.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\c-sharp\classroom\obj\Debug\net10.0\class room.AssemblyInfoInputs.cache
+D:\C#_trining\c-sharp\classroom\obj\Debug\net10.0\class room.AssemblyInfo.cs
+D:\C#_trining\c-sharp\classroom\obj\Debug\net10.0\class room.csproj.CoreCompileInputs.cache
+D:\C#_trining\c-sharp\classroom\obj\Debug\net10.0\class room.sourcelink.json
+D:\C#_trining\c-sharp\classroom\bin\Debug\net10.0\class room.exe
+D:\C#_trining\c-sharp\classroom\bin\Debug\net10.0\class room.deps.json
+D:\C#_trining\c-sharp\classroom\bin\Debug\net10.0\class room.runtimeconfig.json
+D:\C#_trining\c-sharp\classroom\bin\Debug\net10.0\class room.dll
+D:\C#_trining\c-sharp\classroom\bin\Debug\net10.0\class room.pdb
+D:\C#_trining\c-sharp\classroom\obj\Debug\net10.0\class room.dll
+D:\C#_trining\c-sharp\classroom\obj\Debug\net10.0\refint\class room.dll
+D:\C#_trining\c-sharp\classroom\obj\Debug\net10.0\class room.pdb
+D:\C#_trining\c-sharp\classroom\obj\Debug\net10.0\class room.genruntimeconfig.cache
+D:\C#_trining\c-sharp\classroom\obj\Debug\net10.0\ref\class room.dll
