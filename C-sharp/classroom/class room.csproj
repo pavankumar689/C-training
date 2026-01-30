@@ -6,6 +6,7 @@
     <RootNamespace>class_room</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>DisplayHeight</StartupObject>
   </PropertyGroup>
 
 </Project>
