@@ -1,0 +1,46 @@
+create table Cities (
+    CityId int primary key identity(1,1),
+    CityName varchar(50)
+);
+
+--customers table--
+create table Customers (
+    CustomerId int primary key identity(1,1),
+    CustomerName varchar(100),
+    CustomerPhone varchar(20),
+    CityId int,
+    foreign key (CityId) references Cities(CityId)
+);
+
+--products table--
+create table Products (
+    ProductId int primary key identity(1,1),
+    ProductName varchar(100),
+    UnitPrice int
+);
+
+--salesperson table--
+create table SalesPersons (
+    SalesId int primary key identity(1,1),
+    SalesPersonName varchar(100)
+);
+
+--customerorders table--
+create table CustomerOrders (
+    OrderId int primary key identity(1,1),
+    OrderDate date,
+    CustomerId int,
+    SalesId int,
+    foreign key (CustomerId) references Customers(CustomerId),
+    foreign key (SalesId) references SalesPersons(SalesId)
+);
+
+--order details table--
+create table OrderDetails (
+    OrderDetailId int primary key identity(1,1),
+    OrderId int,
+    ProductId int,
+    Quantity int,
+    foreign key (OrderId) references CustomerOrders(OrderId),
+    foreign key (ProductId) references Products(ProductId)
+);
