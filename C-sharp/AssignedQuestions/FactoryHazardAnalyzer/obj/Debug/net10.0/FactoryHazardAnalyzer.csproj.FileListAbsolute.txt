@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\bin\Debug\net10.0\FactoryHazardAnalyzer.exe
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\bin\Debug\net10.0\FactoryHazardAnalyzer.deps.json
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\bin\Debug\net10.0\FactoryHazardAnalyzer.runtimeconfig.json
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\bin\Debug\net10.0\FactoryHazardAnalyzer.dll
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\bin\Debug\net10.0\FactoryHazardAnalyzer.pdb
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\obj\Debug\net10.0\FactoryHazardAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\obj\Debug\net10.0\FactoryHazardAnalyzer.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\obj\Debug\net10.0\FactoryHazardAnalyzer.AssemblyInfo.cs
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\obj\Debug\net10.0\FactoryHazardAnalyzer.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\obj\Debug\net10.0\FactoryHazardAnalyzer.sourcelink.json
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\obj\Debug\net10.0\FactoryHazardAnalyzer.dll
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\obj\Debug\net10.0\refint\FactoryHazardAnalyzer.dll
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\obj\Debug\net10.0\FactoryHazardAnalyzer.pdb
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\obj\Debug\net10.0\FactoryHazardAnalyzer.genruntimeconfig.cache
+D:\C#_trining\C-sharp\FactoryHazardAnalyzer\obj\Debug\net10.0\ref\FactoryHazardAnalyzer.dll
