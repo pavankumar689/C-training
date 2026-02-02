@@ -1,0 +1,15 @@
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\bin\Debug\net10.0\factoryRobortHazzard.exe
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\bin\Debug\net10.0\factoryRobortHazzard.deps.json
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\bin\Debug\net10.0\factoryRobortHazzard.runtimeconfig.json
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\bin\Debug\net10.0\factoryRobortHazzard.dll
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\bin\Debug\net10.0\factoryRobortHazzard.pdb
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\obj\Debug\net10.0\factoryRobortHazzard.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\obj\Debug\net10.0\factoryRobortHazzard.AssemblyInfoInputs.cache
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\obj\Debug\net10.0\factoryRobortHazzard.AssemblyInfo.cs
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\obj\Debug\net10.0\factoryRobortHazzard.csproj.CoreCompileInputs.cache
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\obj\Debug\net10.0\factoryRobortHazzard.sourcelink.json
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\obj\Debug\net10.0\factoryRobortHazzard.dll
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\obj\Debug\net10.0\refint\factoryRobortHazzard.dll
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\obj\Debug\net10.0\factoryRobortHazzard.pdb
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\obj\Debug\net10.0\factoryRobortHazzard.genruntimeconfig.cache
+D:\C#_trining\c-sharp\AssignedQuestions\factoryrobortHazzard\obj\Debug\net10.0\ref\factoryRobortHazzard.dll

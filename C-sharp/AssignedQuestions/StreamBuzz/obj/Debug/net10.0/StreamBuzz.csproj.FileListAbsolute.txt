@@ -1,0 +1,15 @@
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\bin\Debug\net10.0\StreamBuzz.exe
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\bin\Debug\net10.0\StreamBuzz.deps.json
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\bin\Debug\net10.0\StreamBuzz.runtimeconfig.json
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\bin\Debug\net10.0\StreamBuzz.dll
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\bin\Debug\net10.0\StreamBuzz.pdb
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\obj\Debug\net10.0\StreamBuzz.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\obj\Debug\net10.0\StreamBuzz.AssemblyInfoInputs.cache
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\obj\Debug\net10.0\StreamBuzz.AssemblyInfo.cs
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\obj\Debug\net10.0\StreamBuzz.csproj.CoreCompileInputs.cache
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\obj\Debug\net10.0\StreamBuzz.sourcelink.json
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\obj\Debug\net10.0\StreamBuzz.dll
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\obj\Debug\net10.0\refint\StreamBuzz.dll
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\obj\Debug\net10.0\StreamBuzz.pdb
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\obj\Debug\net10.0\StreamBuzz.genruntimeconfig.cache
+D:\C#_trining\c-sharp\AssignedQuestions\StreamBuzz\obj\Debug\net10.0\ref\StreamBuzz.dll
