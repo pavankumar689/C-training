@@ -1,0 +1,15 @@
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\bin\Debug\net10.0\FlipKey.exe
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\bin\Debug\net10.0\FlipKey.deps.json
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\bin\Debug\net10.0\FlipKey.runtimeconfig.json
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\bin\Debug\net10.0\FlipKey.dll
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\bin\Debug\net10.0\FlipKey.pdb
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\obj\Debug\net10.0\FlipKey.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\obj\Debug\net10.0\FlipKey.AssemblyInfoInputs.cache
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\obj\Debug\net10.0\FlipKey.AssemblyInfo.cs
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\obj\Debug\net10.0\FlipKey.csproj.CoreCompileInputs.cache
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\obj\Debug\net10.0\FlipKey.sourcelink.json
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\obj\Debug\net10.0\FlipKey.dll
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\obj\Debug\net10.0\refint\FlipKey.dll
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\obj\Debug\net10.0\FlipKey.pdb
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\obj\Debug\net10.0\FlipKey.genruntimeconfig.cache
+D:\C#_trining\c-sharp\AssignedQuestions\FlipKey\obj\Debug\net10.0\ref\FlipKey.dll
