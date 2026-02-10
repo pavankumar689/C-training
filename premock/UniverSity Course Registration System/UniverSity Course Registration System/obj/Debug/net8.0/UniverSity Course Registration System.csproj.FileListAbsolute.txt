@@ -1,0 +1,14 @@
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net8.0\UniverSity Course Registration System.exe
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net8.0\UniverSity Course Registration System.deps.json
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net8.0\UniverSity Course Registration System.runtimeconfig.json
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net8.0\UniverSity Course Registration System.dll
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\bin\Debug\net8.0\UniverSity Course Registration System.pdb
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.AssemblyInfoInputs.cache
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.AssemblyInfo.cs
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.csproj.CoreCompileInputs.cache
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.dll
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\refint\UniverSity Course Registration System.dll
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.pdb
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\UniverSity Course Registration System.genruntimeconfig.cache
+c:\Users\Arjun\Downloads\assesmentquestionboilerplate\UniverSity Course Registration System\UniverSity Course Registration System\obj\Debug\net8.0\ref\UniverSity Course Registration System.dll
