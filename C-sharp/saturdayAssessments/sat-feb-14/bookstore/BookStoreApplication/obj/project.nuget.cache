@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5DZ+gNG8pRs=",
+  "success": true,
+  "projectFilePath": "D:\\C#_trining\\bookstore\\bookstoreapplication\\BookStoreApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kanth\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\kanth\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\kanth\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\kanth\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.24\\microsoft.netcore.app.host.win-x64.8.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}

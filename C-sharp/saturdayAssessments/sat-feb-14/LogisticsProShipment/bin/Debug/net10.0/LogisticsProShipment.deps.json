@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "LogisticsProShipment/1.0.0": {
+        "runtime": {
+          "LogisticsProShipment.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LogisticsProShipment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

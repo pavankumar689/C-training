@@ -1,0 +1,15 @@
+D:\C#_trining\HealthSyncAdvanced\bin\Debug\net10.0\HealthSyncAdvanced.exe
+D:\C#_trining\HealthSyncAdvanced\bin\Debug\net10.0\HealthSyncAdvanced.deps.json
+D:\C#_trining\HealthSyncAdvanced\bin\Debug\net10.0\HealthSyncAdvanced.runtimeconfig.json
+D:\C#_trining\HealthSyncAdvanced\bin\Debug\net10.0\HealthSyncAdvanced.dll
+D:\C#_trining\HealthSyncAdvanced\bin\Debug\net10.0\HealthSyncAdvanced.pdb
+D:\C#_trining\HealthSyncAdvanced\obj\Debug\net10.0\HealthSyncAdvanced.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\HealthSyncAdvanced\obj\Debug\net10.0\HealthSyncAdvanced.AssemblyInfoInputs.cache
+D:\C#_trining\HealthSyncAdvanced\obj\Debug\net10.0\HealthSyncAdvanced.AssemblyInfo.cs
+D:\C#_trining\HealthSyncAdvanced\obj\Debug\net10.0\HealthSyncAdvanced.csproj.CoreCompileInputs.cache
+D:\C#_trining\HealthSyncAdvanced\obj\Debug\net10.0\HealthSyncAdvanced.sourcelink.json
+D:\C#_trining\HealthSyncAdvanced\obj\Debug\net10.0\HealthSyncAdvanced.dll
+D:\C#_trining\HealthSyncAdvanced\obj\Debug\net10.0\refint\HealthSyncAdvanced.dll
+D:\C#_trining\HealthSyncAdvanced\obj\Debug\net10.0\HealthSyncAdvanced.pdb
+D:\C#_trining\HealthSyncAdvanced\obj\Debug\net10.0\HealthSyncAdvanced.genruntimeconfig.cache
+D:\C#_trining\HealthSyncAdvanced\obj\Debug\net10.0\ref\HealthSyncAdvanced.dll

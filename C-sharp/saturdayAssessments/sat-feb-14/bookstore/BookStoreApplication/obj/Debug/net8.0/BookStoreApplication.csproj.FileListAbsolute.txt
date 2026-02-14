@@ -1,0 +1,15 @@
+D:\C#_trining\bookstore\bookstoreapplication\bin\Debug\net8.0\BookStoreApplication.exe
+D:\C#_trining\bookstore\bookstoreapplication\bin\Debug\net8.0\BookStoreApplication.deps.json
+D:\C#_trining\bookstore\bookstoreapplication\bin\Debug\net8.0\BookStoreApplication.runtimeconfig.json
+D:\C#_trining\bookstore\bookstoreapplication\bin\Debug\net8.0\BookStoreApplication.dll
+D:\C#_trining\bookstore\bookstoreapplication\bin\Debug\net8.0\BookStoreApplication.pdb
+D:\C#_trining\bookstore\bookstoreapplication\obj\Debug\net8.0\BookStoreApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\bookstore\bookstoreapplication\obj\Debug\net8.0\BookStoreApplication.AssemblyInfoInputs.cache
+D:\C#_trining\bookstore\bookstoreapplication\obj\Debug\net8.0\BookStoreApplication.AssemblyInfo.cs
+D:\C#_trining\bookstore\bookstoreapplication\obj\Debug\net8.0\BookStoreApplication.csproj.CoreCompileInputs.cache
+D:\C#_trining\bookstore\bookstoreapplication\obj\Debug\net8.0\BookStoreApplication.sourcelink.json
+D:\C#_trining\bookstore\bookstoreapplication\obj\Debug\net8.0\BookStoreApplication.dll
+D:\C#_trining\bookstore\bookstoreapplication\obj\Debug\net8.0\refint\BookStoreApplication.dll
+D:\C#_trining\bookstore\bookstoreapplication\obj\Debug\net8.0\BookStoreApplication.pdb
+D:\C#_trining\bookstore\bookstoreapplication\obj\Debug\net8.0\BookStoreApplication.genruntimeconfig.cache
+D:\C#_trining\bookstore\bookstoreapplication\obj\Debug\net8.0\ref\BookStoreApplication.dll

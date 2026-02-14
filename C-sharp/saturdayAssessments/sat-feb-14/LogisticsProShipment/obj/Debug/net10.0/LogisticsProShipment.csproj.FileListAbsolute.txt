@@ -1,0 +1,15 @@
+D:\C#_trining\LogisticsProShipment\bin\Debug\net10.0\LogisticsProShipment.exe
+D:\C#_trining\LogisticsProShipment\bin\Debug\net10.0\LogisticsProShipment.deps.json
+D:\C#_trining\LogisticsProShipment\bin\Debug\net10.0\LogisticsProShipment.runtimeconfig.json
+D:\C#_trining\LogisticsProShipment\bin\Debug\net10.0\LogisticsProShipment.dll
+D:\C#_trining\LogisticsProShipment\bin\Debug\net10.0\LogisticsProShipment.pdb
+D:\C#_trining\LogisticsProShipment\obj\Debug\net10.0\LogisticsProShipment.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\LogisticsProShipment\obj\Debug\net10.0\LogisticsProShipment.AssemblyInfoInputs.cache
+D:\C#_trining\LogisticsProShipment\obj\Debug\net10.0\LogisticsProShipment.AssemblyInfo.cs
+D:\C#_trining\LogisticsProShipment\obj\Debug\net10.0\LogisticsProShipment.csproj.CoreCompileInputs.cache
+D:\C#_trining\LogisticsProShipment\obj\Debug\net10.0\LogisticsProShipment.sourcelink.json
+D:\C#_trining\LogisticsProShipment\obj\Debug\net10.0\LogisticsProShipment.dll
+D:\C#_trining\LogisticsProShipment\obj\Debug\net10.0\refint\LogisticsProShipment.dll
+D:\C#_trining\LogisticsProShipment\obj\Debug\net10.0\LogisticsProShipment.pdb
+D:\C#_trining\LogisticsProShipment\obj\Debug\net10.0\LogisticsProShipment.genruntimeconfig.cache
+D:\C#_trining\LogisticsProShipment\obj\Debug\net10.0\ref\LogisticsProShipment.dll
