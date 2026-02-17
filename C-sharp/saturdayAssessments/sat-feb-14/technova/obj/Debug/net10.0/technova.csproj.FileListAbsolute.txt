@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\technova\bin\Debug\net10.0\technova.exe
+D:\C#_trining\C-sharp\technova\bin\Debug\net10.0\technova.deps.json
+D:\C#_trining\C-sharp\technova\bin\Debug\net10.0\technova.runtimeconfig.json
+D:\C#_trining\C-sharp\technova\bin\Debug\net10.0\technova.dll
+D:\C#_trining\C-sharp\technova\bin\Debug\net10.0\technova.pdb
+D:\C#_trining\C-sharp\technova\obj\Debug\net10.0\technova.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\technova\obj\Debug\net10.0\technova.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\technova\obj\Debug\net10.0\technova.AssemblyInfo.cs
+D:\C#_trining\C-sharp\technova\obj\Debug\net10.0\technova.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\technova\obj\Debug\net10.0\technova.sourcelink.json
+D:\C#_trining\C-sharp\technova\obj\Debug\net10.0\technova.dll
+D:\C#_trining\C-sharp\technova\obj\Debug\net10.0\refint\technova.dll
+D:\C#_trining\C-sharp\technova\obj\Debug\net10.0\technova.pdb
+D:\C#_trining\C-sharp\technova\obj\Debug\net10.0\technova.genruntimeconfig.cache
+D:\C#_trining\C-sharp\technova\obj\Debug\net10.0\ref\technova.dll
