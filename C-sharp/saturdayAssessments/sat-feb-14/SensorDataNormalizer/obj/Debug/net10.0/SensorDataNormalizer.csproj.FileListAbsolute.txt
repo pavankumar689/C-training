@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\obj\Debug\net10.0\SensorDataNormalizer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\obj\Debug\net10.0\SensorDataNormalizer.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\obj\Debug\net10.0\SensorDataNormalizer.AssemblyInfo.cs
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\obj\Debug\net10.0\SensorDataNormalizer.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\obj\Debug\net10.0\SensorDataNormalizer.sourcelink.json
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\bin\Debug\net10.0\SensorDataNormalizer.exe
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\bin\Debug\net10.0\SensorDataNormalizer.deps.json
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\bin\Debug\net10.0\SensorDataNormalizer.runtimeconfig.json
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\bin\Debug\net10.0\SensorDataNormalizer.dll
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\bin\Debug\net10.0\SensorDataNormalizer.pdb
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\obj\Debug\net10.0\SensorDataNormalizer.dll
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\obj\Debug\net10.0\refint\SensorDataNormalizer.dll
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\obj\Debug\net10.0\SensorDataNormalizer.pdb
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\obj\Debug\net10.0\SensorDataNormalizer.genruntimeconfig.cache
+D:\C#_trining\C-sharp\saturdayAssessments\sat-feb-14\SensorDataNormalizer\obj\Debug\net10.0\ref\SensorDataNormalizer.dll
