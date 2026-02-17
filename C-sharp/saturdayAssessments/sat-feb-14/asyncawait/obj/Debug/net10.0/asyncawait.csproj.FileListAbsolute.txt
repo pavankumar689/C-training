@@ -1,0 +1,15 @@
+D:\C#_trining\C-sharp\asyncawait\bin\Debug\net10.0\asyncawait.exe
+D:\C#_trining\C-sharp\asyncawait\bin\Debug\net10.0\asyncawait.deps.json
+D:\C#_trining\C-sharp\asyncawait\bin\Debug\net10.0\asyncawait.runtimeconfig.json
+D:\C#_trining\C-sharp\asyncawait\bin\Debug\net10.0\asyncawait.dll
+D:\C#_trining\C-sharp\asyncawait\bin\Debug\net10.0\asyncawait.pdb
+D:\C#_trining\C-sharp\asyncawait\obj\Debug\net10.0\asyncawait.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\C-sharp\asyncawait\obj\Debug\net10.0\asyncawait.AssemblyInfoInputs.cache
+D:\C#_trining\C-sharp\asyncawait\obj\Debug\net10.0\asyncawait.AssemblyInfo.cs
+D:\C#_trining\C-sharp\asyncawait\obj\Debug\net10.0\asyncawait.csproj.CoreCompileInputs.cache
+D:\C#_trining\C-sharp\asyncawait\obj\Debug\net10.0\asyncawait.sourcelink.json
+D:\C#_trining\C-sharp\asyncawait\obj\Debug\net10.0\asyncawait.dll
+D:\C#_trining\C-sharp\asyncawait\obj\Debug\net10.0\refint\asyncawait.dll
+D:\C#_trining\C-sharp\asyncawait\obj\Debug\net10.0\asyncawait.pdb
+D:\C#_trining\C-sharp\asyncawait\obj\Debug\net10.0\asyncawait.genruntimeconfig.cache
+D:\C#_trining\C-sharp\asyncawait\obj\Debug\net10.0\ref\asyncawait.dll
