@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#_trining\\mvc\\using tempdata\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC51BB5-7433-478E-9A8B-BD451C4FD796}|using tempdata.csproj|d:\\c#_trining\\mvc\\using tempdata\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC51BB5-7433-478E-9A8B-BD451C4FD796}|using tempdata.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC51BB5-7433-478E-9A8B-BD451C4FD796}|using tempdata.csproj|d:\\c#_trining\\mvc\\using tempdata\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BC51BB5-7433-478E-9A8B-BD451C4FD796}|using tempdata.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC51BB5-7433-478E-9A8B-BD451C4FD796}|using tempdata.csproj|d:\\c#_trining\\mvc\\using tempdata\\views\\home\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BC51BB5-7433-478E-9A8B-BD451C4FD796}|using tempdata.csproj|solutionrelative:views\\home\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BC51BB5-7433-478E-9A8B-BD451C4FD796}|using tempdata.csproj|d:\\c#_trining\\mvc\\using tempdata\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BC51BB5-7433-478E-9A8B-BD451C4FD796}|using tempdata.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "view.cshtml",
+              "DocumentMoniker": "D:\\C#_trining\\mvc\\using tempdata\\Views\\Home\\view.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\view.cshtml",
+              "ToolTip": "D:\\C#_trining\\mvc\\using tempdata\\Views\\Home\\view.cshtml",
+              "RelativeToolTip": "Views\\Home\\view.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T07:16:26.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#_trining\\mvc\\using tempdata\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C#_trining\\mvc\\using tempdata\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T07:14:34.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C#_trining\\mvc\\using tempdata\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C#_trining\\mvc\\using tempdata\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T06:39:32.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "studentController.cs",
+              "DocumentMoniker": "D:\\C#_trining\\mvc\\using tempdata\\Controllers\\studentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\studentController.cs",
+              "ToolTip": "D:\\C#_trining\\mvc\\using tempdata\\Controllers\\studentController.cs",
+              "RelativeToolTip": "Controllers\\studentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T06:39:29.493Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

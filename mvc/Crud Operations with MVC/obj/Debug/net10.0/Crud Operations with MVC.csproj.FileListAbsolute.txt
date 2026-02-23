@@ -1,0 +1,107 @@
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\appsettings.Development.json
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\appsettings.json
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\Crud Operations with MVC.staticwebassets.runtime.json
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\Crud Operations with MVC.staticwebassets.endpoints.json
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\Crud Operations with MVC.exe
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\Crud Operations with MVC.deps.json
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\Crud Operations with MVC.runtimeconfig.json
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\Crud Operations with MVC.dll
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\Crud Operations with MVC.pdb
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\System.Data.SqlClient.dll
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\runtimes\win-arm64\native\sni.dll
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\runtimes\win-x64\native\sni.dll
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\runtimes\win-x86\native\sni.dll
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\C#_trining\mvc\Crud Operations with MVC\bin\Debug\net10.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.csproj.AssemblyReference.cache
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.AssemblyInfoInputs.cache
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.AssemblyInfo.cs
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.csproj.CoreCompileInputs.cache
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.RazorAssemblyInfo.cache
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.RazorAssemblyInfo.cs
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.sourcelink.json
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\scopedcss\bundle\Crud Operations with MVC.styles.css
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\scopedcss\projectbundle\Crud Operations with MVC.bundle.scp.css
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\0hkdzu8pfv-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\pedpnkdmua-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\j9e9mp593w-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\93hilv2dod-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\46sd7etcky-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\s664kpni1w-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\rvb4xddzxg-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\wvy1mcgzak-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\ck6dzyhcs8-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\vg9z4ck6bf-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\uavu5mq22a-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\mevr8i637k-{0}-ub07r2b239-ub07r2b239.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\qih8z0q8is-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\565msbomre-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\w16w1u8q9b-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\wp8hqwfem1-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\jhkf0bj3uq-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\53d5cu7yj1-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\smhwndbvjg-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\a5dh9esipc-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\k1lr097zoz-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\0cb02x48j7-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\ro6irq9w71-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\vg6dnkziv0-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\berkw5hd1b-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\0puewuff0v-{0}-06098lyss8-06098lyss8.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\hadi82jfxr-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\9h9iq32v9y-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\bll63t6dxn-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\044e0qj2t7-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\8w1wtt3rud-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\ls49a3k9go-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\d2rwlpqo40-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\f2uccoy3jl-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\px8lhxodfv-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\x24dd8via3-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\emp4bdq03x-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\l36q9a15e9-{0}-493y06b0oq-493y06b0oq.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\9btkvuohqr-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\on6ykc6chy-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\zci1ttk2n7-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\hmw81qrxdd-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\mb58ufjwvg-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\j241eyy9jq-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\jytt7b7toq-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\wz37qabgaj-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\9yvymfglyy-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\w0dq4f5ifb-{0}-47otxtyo56-47otxtyo56.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\ei1i27abk2-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\t9h9tkchmd-{0}-356vix0kms-356vix0kms.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\55c4ivn9c1-{0}-83jwlth58m-83jwlth58m.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\bqkeneuva6-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\oi8ooo7f54-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\4xjyi7fjwe-{0}-ag7o75518u-ag7o75518u.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\dktafxvgxt-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\k78wpm2s24-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\g9vzsozh8w-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\qted4j4nev-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\7jkd16ildu-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\ou1wnszmpc-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\682u4o5xr8-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\opjymak7e0-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\083am90mp4-{0}-i8hd0v7kpz-i8hd0v7kpz.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\compressed\gd3dvzq20g-{0}-i8hd0v7kpz-i8hd0v7kpz.gz
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\staticwebassets.build.json
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\staticwebassets.development.json
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\swae.build.ex.cache
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Ope.A549F325.Up2Date
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.dll
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\refint\Crud Operations with MVC.dll
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.pdb
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\Crud Operations with MVC.genruntimeconfig.cache
+D:\C#_trining\mvc\Crud Operations with MVC\obj\Debug\net10.0\ref\Crud Operations with MVC.dll

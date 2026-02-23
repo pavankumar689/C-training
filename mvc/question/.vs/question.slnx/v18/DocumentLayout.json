@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#_trining\\mvc\\question\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|d:\\c#_trining\\mvc\\question\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|d:\\c#_trining\\mvc\\question\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|d:\\c#_trining\\mvc\\question\\data\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|solutionrelative:data\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|d:\\c#_trining\\mvc\\question\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|d:\\c#_trining\\mvc\\question\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|d:\\c#_trining\\mvc\\question\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82B4ECE-5390-4E55-B1AC-6FED10F20BA2}|question.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#_trining\\mvc\\question\\Views\\student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\student\\Index.cshtml",
+              "ToolTip": "D:\\C#_trining\\mvc\\question\\Views\\student\\Index.cshtml",
+              "RelativeToolTip": "Views\\student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T04:56:17.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#_trining\\mvc\\question\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\C#_trining\\mvc\\question\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:52:00.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "studentController.cs",
+              "DocumentMoniker": "D:\\C#_trining\\mvc\\question\\Controllers\\studentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\studentController.cs",
+              "ToolTip": "D:\\C#_trining\\mvc\\question\\Controllers\\studentController.cs",
+              "RelativeToolTip": "Controllers\\studentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:51:14.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\C#_trining\\mvc\\question\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\C#_trining\\mvc\\question\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:46:58.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "studentrepository.cs",
+              "DocumentMoniker": "D:\\C#_trining\\mvc\\question\\Data\\studentrepository.cs",
+              "RelativeDocumentMoniker": "Data\\studentrepository.cs",
+              "ToolTip": "D:\\C#_trining\\mvc\\question\\Data\\studentrepository.cs",
+              "RelativeToolTip": "Data\\studentrepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:45:16.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C#_trining\\mvc\\question\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\C#_trining\\mvc\\question\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-21T04:44:02.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

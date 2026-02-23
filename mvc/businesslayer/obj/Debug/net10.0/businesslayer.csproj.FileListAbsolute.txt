@@ -1,0 +1,16 @@
+D:\C#_trining\mvc\businesslayer\bin\Debug\net10.0\businesslayer.deps.json
+D:\C#_trining\mvc\businesslayer\bin\Debug\net10.0\businesslayer.dll
+D:\C#_trining\mvc\businesslayer\bin\Debug\net10.0\businesslayer.pdb
+D:\C#_trining\mvc\businesslayer\bin\Debug\net10.0\namesdll.dll
+D:\C#_trining\mvc\businesslayer\bin\Debug\net10.0\namesdll.pdb
+D:\C#_trining\mvc\businesslayer\obj\Debug\net10.0\businesslayer.csproj.AssemblyReference.cache
+D:\C#_trining\mvc\businesslayer\obj\Debug\net10.0\businesslayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\mvc\businesslayer\obj\Debug\net10.0\businesslayer.AssemblyInfoInputs.cache
+D:\C#_trining\mvc\businesslayer\obj\Debug\net10.0\businesslayer.AssemblyInfo.cs
+D:\C#_trining\mvc\businesslayer\obj\Debug\net10.0\businesslayer.csproj.CoreCompileInputs.cache
+D:\C#_trining\mvc\businesslayer\obj\Debug\net10.0\businesslayer.sourcelink.json
+D:\C#_trining\mvc\businesslayer\obj\Debug\net10.0\business.E8D69CBA.Up2Date
+D:\C#_trining\mvc\businesslayer\obj\Debug\net10.0\businesslayer.dll
+D:\C#_trining\mvc\businesslayer\obj\Debug\net10.0\refint\businesslayer.dll
+D:\C#_trining\mvc\businesslayer\obj\Debug\net10.0\businesslayer.pdb
+D:\C#_trining\mvc\businesslayer\obj\Debug\net10.0\ref\businesslayer.dll

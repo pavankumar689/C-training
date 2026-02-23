@@ -1,0 +1,37 @@
+﻿@model Crud_Operations_with_MVC.Models.Student
+
+<div class="container mt-4">
+    <h2>Student Management</h2>
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success">@TempData["Message"]</div>
+    }
+
+    <form method="post">
+        @Html.AntiForgeryToken()
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="Id" class="control-label"></label>
+            <input asp-for="Id" class="form-control" />
+            <span asp-validation-for="Id" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mt-3">
+            <button type="submit" class="btn btn-primary" formaction="@Url.Action("Insert", "Student")">Insert</button>
+            <button type="submit" class="btn btn-warning" formaction="@Url.Action("Update", "Student")">Update</button>
+            <button type="submit" class="btn btn-danger" formaction="@Url.Action("Delete", "Student")">Delete</button>
+            <button type="submit" class="btn btn-info" formaction="@Url.Action("Get", "Student")">Get</button>
+        </div>
+    </form>
+
+    <partial name="_ValidationScriptsPartial" />
+</div>

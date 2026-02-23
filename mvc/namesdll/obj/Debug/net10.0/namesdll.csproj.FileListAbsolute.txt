@@ -1,0 +1,12 @@
+D:\C#_trining\mvc\namesdll\bin\Debug\net10.0\namesdll.deps.json
+D:\C#_trining\mvc\namesdll\bin\Debug\net10.0\namesdll.dll
+D:\C#_trining\mvc\namesdll\bin\Debug\net10.0\namesdll.pdb
+D:\C#_trining\mvc\namesdll\obj\Debug\net10.0\namesdll.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\mvc\namesdll\obj\Debug\net10.0\namesdll.AssemblyInfoInputs.cache
+D:\C#_trining\mvc\namesdll\obj\Debug\net10.0\namesdll.AssemblyInfo.cs
+D:\C#_trining\mvc\namesdll\obj\Debug\net10.0\namesdll.csproj.CoreCompileInputs.cache
+D:\C#_trining\mvc\namesdll\obj\Debug\net10.0\namesdll.sourcelink.json
+D:\C#_trining\mvc\namesdll\obj\Debug\net10.0\namesdll.dll
+D:\C#_trining\mvc\namesdll\obj\Debug\net10.0\refint\namesdll.dll
+D:\C#_trining\mvc\namesdll\obj\Debug\net10.0\namesdll.pdb
+D:\C#_trining\mvc\namesdll\obj\Debug\net10.0\ref\namesdll.dll

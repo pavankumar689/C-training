@@ -1,0 +1,167 @@
+﻿using Crud_Operations_with_MVC.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Data.SqlClient;
+
+namespace Crud_Operations_with_MVC.Controllers
+{
+    public class StudentController : Controller
+    {
+        string cs = "Data Source=PAVAN\\SQLEXPRESS;Initial Catalog=College;Integrated Security=True;TrustServerCertificate=True;";
+
+        public ActionResult Index()
+        {
+            // show empty form
+            return View(new Student());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Insert(Student s)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("Index", s);
+            }
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(cs))
+                {
+                    SqlCommand cmd = new SqlCommand("insert into Students (Id, Name) values(@Id,@Name)", con);
+                    cmd.Parameters.AddWithValue("@Id", s.Id);
+                    cmd.Parameters.AddWithValue("@Name", s.Name);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                }
+
+                TempData["Message"] = "Student inserted successfully.";
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, "Error inserting student: " + ex.Message);
+                return View("Index", s);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Update(Student s)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("Index", s);
+            }
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(cs))
+                {
+                    SqlCommand cmd = new SqlCommand("update Students set Name=@Name where Id=@Id", con);
+                    cmd.Parameters.AddWithValue("@Id", s.Id);
+                    cmd.Parameters.AddWithValue("@Name", s.Name);
+                    con.Open();
+                    int rows = cmd.ExecuteNonQuery();
+                    if (rows == 0)
+                    {
+                        ModelState.AddModelError(string.Empty, "No student found with the provided Id.");
+                        return View("Index", s);
+                    }
+                }
+
+                TempData["Message"] = "Student updated successfully.";
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, "Error updating student: " + ex.Message);
+                return View("Index", s);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(Student s)
+        {
+            if (s == null || s.Id <= 0)
+            {
+                ModelState.AddModelError(string.Empty, "Valid Id is required to delete a student.");
+                return View("Index", s ?? new Student());
+            }
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(cs))
+                {
+                    SqlCommand cmd = new SqlCommand("delete from Students where Id=@Id", con);
+                    cmd.Parameters.AddWithValue("@Id", s.Id);
+                    con.Open();
+                    int rows = cmd.ExecuteNonQuery();
+                    if (rows == 0)
+                    {
+                        ModelState.AddModelError(string.Empty, "No student found with the provided Id.");
+                        return View("Index", s);
+                    }
+                }
+
+                TempData["Message"] = "Student deleted successfully.";
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, "Error deleting student: " + ex.Message);
+                return View("Index", s);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Get(int id)
+        {
+            if (id <= 0)
+            {
+                ModelState.AddModelError(string.Empty, "Valid Id is required to get a student.");
+                return View("Index", new Student());
+            }
+
+            Student st = new Student();
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(cs))
+                {
+                    SqlCommand cmd = new SqlCommand("select Id, Name from Students where Id=@Id", con);
+                    cmd.Parameters.AddWithValue("@Id", id);
+                    con.Open();
+
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr.Read())
+                        {
+                            st.Id = (int)dr["Id"];
+                            st.Name = dr["Name"].ToString();
+                        }
+                        else
+                        {
+                            ModelState.AddModelError(string.Empty, "No student found with the provided Id.");
+                            return View("Index", new Student { Id = id });
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, "Error retrieving student: " + ex.Message);
+                return View("Index", new Student { Id = id });
+            }
+
+            // Clear previous validation state so the retrieved student shows without old errors
+            ModelState.Clear();
+            TempData["Message"] = "Student retrieved.";
+            return View("Index", st);
+        }
+    }
+}

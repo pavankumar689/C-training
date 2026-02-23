@@ -1,0 +1,99 @@
+D:\C#_trining\mvc\using tempdata\bin\Debug\net10.0\appsettings.Development.json
+D:\C#_trining\mvc\using tempdata\bin\Debug\net10.0\appsettings.json
+D:\C#_trining\mvc\using tempdata\bin\Debug\net10.0\using tempdata.staticwebassets.runtime.json
+D:\C#_trining\mvc\using tempdata\bin\Debug\net10.0\using tempdata.staticwebassets.endpoints.json
+D:\C#_trining\mvc\using tempdata\bin\Debug\net10.0\using tempdata.exe
+D:\C#_trining\mvc\using tempdata\bin\Debug\net10.0\using tempdata.deps.json
+D:\C#_trining\mvc\using tempdata\bin\Debug\net10.0\using tempdata.runtimeconfig.json
+D:\C#_trining\mvc\using tempdata\bin\Debug\net10.0\using tempdata.dll
+D:\C#_trining\mvc\using tempdata\bin\Debug\net10.0\using tempdata.pdb
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\using tempdata.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\using tempdata.AssemblyInfoInputs.cache
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\using tempdata.AssemblyInfo.cs
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\using tempdata.csproj.CoreCompileInputs.cache
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\using tempdata.MvcApplicationPartsAssemblyInfo.cache
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\using tempdata.RazorAssemblyInfo.cache
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\using tempdata.RazorAssemblyInfo.cs
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\using tempdata.sourcelink.json
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\scopedcss\bundle\using tempdata.styles.css
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\scopedcss\projectbundle\using tempdata.bundle.scp.css
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\matsximkad-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\aqcmhmxag5-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\0lf1im3xtr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\rmmq3w4c93-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\elreu69bs4-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\0ott97ok2m-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\v9bggcgd85-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\cwjopb4g7b-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\ktjjnisfo0-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\2h9wygld5z-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\bt0kh3t4v0-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\ytpf72a106-{0}-ub07r2b239-ub07r2b239.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\dy6j8033b8-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\wnd1o4vpjj-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\gcfw5jbhka-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\ht374nr8wg-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\ludsm1xnme-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\qoqbal0nae-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\bw0tdenheb-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\auv0krku0v-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\ue0e3ya2nv-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\wpp30p34ly-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\q580ubqcaq-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\l6wi6ohaag-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\kar422rrdc-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\6k8ld2do7l-{0}-06098lyss8-06098lyss8.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\295waw2cml-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\yipzq7gzl4-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\06pwhcubl6-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\xj6hgqmnuc-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\beht7dkart-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\7n6lgd04hd-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\t1ae21ev4d-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\pmrk2m4iqg-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\llzer5tdit-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\gkqt3i55vh-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\ftb2ye72gd-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\01a1hnxw4v-{0}-493y06b0oq-493y06b0oq.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\5lqw5dzf10-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\98f4g9zzks-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\m29fm3jktx-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\hxlde197wg-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\xba9hef7js-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\nnz5x3bsdm-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\tvgw176gju-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\3o0z0w0e9y-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\myaq6p3p0o-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\jo8nclfk98-{0}-47otxtyo56-47otxtyo56.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\6ewj1yop4j-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\g37u1uyo5t-{0}-356vix0kms-356vix0kms.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\ksjgpbnw5l-{0}-83jwlth58m-83jwlth58m.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\4grbe4duk3-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\c8b1uaiq9w-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\oy983q59di-{0}-ag7o75518u-ag7o75518u.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\f3ay3hgdos-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\406p02lzql-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\v0ht9sb7lw-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\df3inuq6t1-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\pjifwadi04-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\9kcuyqbxav-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\6dp8v1zg2x-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\rbt1ot62ry-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\g0qw22xfvk-{0}-7u7w8tjoiq-7u7w8tjoiq.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\compressed\wx2xx1hpcl-{0}-7u7w8tjoiq-7u7w8tjoiq.gz
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\staticwebassets.build.json
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\staticwebassets.development.json
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\swae.build.ex.cache
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\using tempdata.dll
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\refint\using tempdata.dll
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\using tempdata.pdb
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\using tempdata.genruntimeconfig.cache
+D:\C#_trining\mvc\using tempdata\obj\Debug\net10.0\ref\using tempdata.dll

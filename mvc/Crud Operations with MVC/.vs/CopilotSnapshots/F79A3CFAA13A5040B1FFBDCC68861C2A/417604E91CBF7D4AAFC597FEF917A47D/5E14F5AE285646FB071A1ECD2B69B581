@@ -1,0 +1,18 @@
+﻿@model Crud_Operations_with_MVC.Models.Student
+
+<form method="post">
+
+    Id:
+    <input asp-for="Id" />
+    <br />
+
+    Name:
+    <input asp-for="Name" />
+    <br /><br />
+
+    <button formaction="/Student/Insert">Insert</button>
+    <button formaction="/Student/Update">Update</button>
+    <button formaction="/Student/Delete">Delete</button>
+    <button formaction="/Student/Get">Get</button>
+
+</form>

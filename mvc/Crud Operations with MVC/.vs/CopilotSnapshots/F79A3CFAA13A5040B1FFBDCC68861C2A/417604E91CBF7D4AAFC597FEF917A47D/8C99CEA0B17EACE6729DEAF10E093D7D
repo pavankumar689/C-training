@@ -1,0 +1,83 @@
+﻿using Crud_Operations_with_MVC.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Data.SqlClient;
+
+namespace Crud_Operations_with_MVC.Controllers
+{
+    public class StudentController : Controller
+    {
+        string cs = "Data Source=PAVAN\\SQLEXPRESS;Initial Catalog=College;Integrated Security=True;TrustServerCertificate=True;";
+
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Insert(Student s)
+        {
+            using (SqlConnection con = new SqlConnection(cs))
+            {
+                SqlCommand cmd = new SqlCommand("insert into Students values(@Id,@Name)", con);
+                cmd.Parameters.AddWithValue("@Id", s.Id);
+                cmd.Parameters.AddWithValue("@Name", s.Name);
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+            return View("Index");
+        }
+
+        [HttpPost]
+        public ActionResult Update(Student s)
+        {
+            using (SqlConnection con = new SqlConnection(cs))
+            {
+                SqlCommand cmd = new SqlCommand("update Students set Name=@Name where Id=@Id", con);
+                cmd.Parameters.AddWithValue("@Id", s.Id);
+                cmd.Parameters.AddWithValue("@Name", s.Name);
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+            return View("Index");
+        }
+
+        [HttpPost]
+        public ActionResult Delete(Student s)
+        {
+            using (SqlConnection con = new SqlConnection(cs))
+            {
+                SqlCommand cmd = new SqlCommand("delete from Students where Id=@Id", con);
+                cmd.Parameters.AddWithValue("@Id", s.Id);
+                con.Open();
+                cmd.ExecuteNonQuery();
+            }
+            return View("Index");
+        }
+
+        [HttpPost]
+        public ActionResult Get(Student s)
+        {
+            Student st = new Student();
+
+            using (SqlConnection con = new SqlConnection(cs))
+            {
+                SqlCommand cmd = new SqlCommand(
+                    "select * from Students where Id=@Id", con);
+
+                cmd.Parameters.AddWithValue("@Id", s.Id);
+
+                con.Open();
+
+                SqlDataReader dr = cmd.ExecuteReader();
+
+                if (dr.Read())
+                {
+                    st.Id = (int)dr["Id"];
+                    st.Name = dr["Name"].ToString();
+                }
+            }
+
+            return View("Index", st);
+        }
+    }
+}
