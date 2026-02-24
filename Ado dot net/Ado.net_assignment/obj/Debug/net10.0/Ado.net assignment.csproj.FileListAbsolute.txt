@@ -1,0 +1,23 @@
+D:\C#_trining\Ado dot net\Ado.net assignment\bin\Debug\net10.0\Ado.net assignment.exe
+D:\C#_trining\Ado dot net\Ado.net assignment\bin\Debug\net10.0\Ado.net assignment.deps.json
+D:\C#_trining\Ado dot net\Ado.net assignment\bin\Debug\net10.0\Ado.net assignment.runtimeconfig.json
+D:\C#_trining\Ado dot net\Ado.net assignment\bin\Debug\net10.0\Ado.net assignment.dll
+D:\C#_trining\Ado dot net\Ado.net assignment\bin\Debug\net10.0\Ado.net assignment.pdb
+D:\C#_trining\Ado dot net\Ado.net assignment\bin\Debug\net10.0\System.Data.SqlClient.dll
+D:\C#_trining\Ado dot net\Ado.net assignment\bin\Debug\net10.0\runtimes\win-arm64\native\sni.dll
+D:\C#_trining\Ado dot net\Ado.net assignment\bin\Debug\net10.0\runtimes\win-x64\native\sni.dll
+D:\C#_trining\Ado dot net\Ado.net assignment\bin\Debug\net10.0\runtimes\win-x86\native\sni.dll
+D:\C#_trining\Ado dot net\Ado.net assignment\bin\Debug\net10.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\C#_trining\Ado dot net\Ado.net assignment\bin\Debug\net10.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\Ado.net assignment.csproj.AssemblyReference.cache
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\Ado.net assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\Ado.net assignment.AssemblyInfoInputs.cache
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\Ado.net assignment.AssemblyInfo.cs
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\Ado.net assignment.csproj.CoreCompileInputs.cache
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\Ado.net assignment.sourcelink.json
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\Ado.net .A7B96391.Up2Date
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\Ado.net assignment.dll
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\refint\Ado.net assignment.dll
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\Ado.net assignment.pdb
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\Ado.net assignment.genruntimeconfig.cache
+D:\C#_trining\Ado dot net\Ado.net assignment\obj\Debug\net10.0\ref\Ado.net assignment.dll
