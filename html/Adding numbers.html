@@ -1,0 +1,83 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Add Numbers</title>
+</head>
+<body>
+
+<h2>Add Three Numbers</h2>
+
+<label>Number 1:</label>
+<input type="text" id="n1"><br><br>
+
+<label>Number 2:</label>
+<input type="text" id="n2"><br><br>
+
+<label>Number 3:</label>
+<input type="text" id="n3"><br><br>
+
+<button onclick="
+result.innerHTML =
+Number(n1.value) +
+Number(n2.value) +
+Number(n3.value)">
+Add</button>
+
+<h3 id="result"></h3>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Three Numbers</title>
+</head>
+<body>
+
+<h2>Add Three Numbers</h2>
+
+<form action="#">
+
+    <label>Number 1:</label>
+    <input type="text" id="num1"><br><br>
+
+    <label>Number 2:</label>
+    <input type="text" id="num2"><br><br>
+
+    <label>Number 3:</label>
+    <input type="text" id="num3"><br><br>
+
+    <button type="button" onclick="addNumbers()">Add</button>
+
+</form>
+
+<h3 id="result"></h3>
+
+<script>
+function addNumbers() {
+
+    var n1 = Number(document.getElementById("num1").value);
+    var n2 = Number(document.getElementById("num2").value);
+    var n2var=document.getElementById("num2").value;
+    if(n2<1 || n2>100){
+        alert("Second Number has to be between 1 to 100");
+        document.getElementById("num1").value = "";
+        n2var.focus();
+        document.getElementById("num3").value = "";
+
+        document.getElementById("result").innerHTML = "";
+        return;
+
+    }
+    var n3 = Number(document.getElementById("num3").value);
+
+    var total = n1 + n2 + n3;
+
+    document.getElementById("result").innerHTML =
+        "Total = " + total;
+}
+</script>
+
+</body>
+</html>

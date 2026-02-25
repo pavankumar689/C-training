@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Form Validation</title>
+
+<style>
+body{
+    font-family: Arial;
+}
+
+.error{
+    color:red;
+    font-size:14px;
+}
+
+.success{
+    color:green;
+    font-weight:bold;
+}
+</style>
+
+<script>
+
+function Validate(){
+
+    let name = document.getElementById("text1");
+    let age = document.getElementById("n1");
+    let state = document.getElementById("state");
+    let dept = document.getElementById("dept");
+    let gender = document.querySelector('input[name="gender"]:checked');
+
+    let msg = document.getElementById("msg");
+    msg.innerHTML = "";
+
+    // -------- NAME VALIDATION --------
+    if(name.value.trim() === ""){
+        showError("Name cannot be empty", name);
+        return false;
+    }
+
+    if(name.value.length < 3 || name.value.length > 30){
+        showError("Name must be between 3 and 30 characters", name);
+        return false;
+    }
+
+    // -------- AGE VALIDATION --------
+    if(age.value === ""){
+        showError("Age is required", age);
+        return false;
+    }
+
+    if(age.value < 16 || age.value > 22){
+        showError("Age must be between 16 and 22", age);
+        return false;
+    }
+
+    // -------- STATE VALIDATION --------
+    if(state.value === ""){
+        showError("Please select a state", state);
+        return false;
+    }
+
+    // -------- DEPARTMENT VALIDATION --------
+    if(dept.value === ""){
+        showError("Please select a department", dept);
+        return false;
+    }
+
+    // -------- GENDER VALIDATION --------
+    if(!gender){
+        msg.innerHTML =
+        "<span class='error'>Please select gender</span>";
+        return false;
+    }
+
+    // -------- SUCCESS MESSAGE --------
+    msg.innerHTML =
+    "<span class='success'>✅ Form submitted successfully!</span>";
+
+    return false; // stop page refresh
+}
+
+
+// reusable error function
+function showError(message, element){
+    document.getElementById("msg").innerHTML =
+    "<span class='error'>" + message + "</span>";
+    element.focus();
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form onsubmit="return Validate()">
+
+<label>Name:</label>
+<input type="text" id="text1"><br><br>
+
+<label>Age:</label>
+<input type="number" id="n1"><br><br>
+
+<label>State:</label>
+<select id="state">
+<option value="">Select State</option>
+<option>Andhra Pradesh</option>
+<option>Telangana</option>
+<option>Tamil Nadu</option>
+<option>Karnataka</option>
+<option>Maharashtra</option>
+<option>Rajasthan</option>
+</select><br><br>
+
+<label>Department:</label>
+<select id="dept">
+<option value="">Select Department</option>
+<option>CSE</option>
+<option>IT</option>
+<option>ECE</option>
+<option>EEE</option>
+<option>Mechanical</option>
+</select><br><br>
+
+<label>Gender:</label>
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+
+<input type="checkbox"> 
+<br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<br>
+<div id="msg"></div>
+
+</body>
+</html>
