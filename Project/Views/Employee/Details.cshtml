@@ -1,0 +1,107 @@
+@model EmployeeApp.Models.Employee
+
+@{
+    ViewData["Title"] = "ID Card";
+}
+
+<div class="row justify-content-center pt-5 pb-5">
+    <div class="col-12 d-flex flex-column align-items-center">
+        <!-- The Proper ID Card Container -->
+        <div class="id-card-container position-relative overflow-hidden shadow-lg" style="width: 350px; height: 550px; border-radius: 16px; background: white; border: 1px solid #e2e8f0; font-family: 'DM Sans', sans-serif;">
+            
+            <!-- Company Header Block -->
+            <div class="id-card-header text-center pt-4 pb-5 position-relative" style="background: linear-gradient(135deg, #3b4fd8, #7c3aed); color: white; height: 160px; border-bottom-left-radius: 50% 20px; border-bottom-right-radius: 50% 20px;">
+                <h4 class="fw-bold mb-0" style="font-family: 'Plus Jakarta Sans', sans-serif; letter-spacing: 1px; font-size: 1.25rem;">
+                    <i class="bi bi-layers-fill me-2"></i>EMPOWER
+                </h4>
+                <p style="font-size: 0.75rem; letter-spacing: 2px; opacity: 0.8;" class="text-uppercase mb-0 mt-1">Systems Corporation</p>
+                <div class="position-absolute" style="top: -20px; right: -20px; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 50%; blur: 2px;"></div>
+                <div class="position-absolute" style="bottom: 10px; left: -30px; width: 80px; height: 80px; background: rgba(255,255,255,0.1); border-radius: 50%; blur: 2px;"></div>
+            </div>
+
+            <!-- Profile Image Container -->
+            <div class="d-flex justify-content-center" style="margin-top: -65px; position: relative; z-index: 5;">
+                <div class="p-1 bg-white rounded-circle shadow-sm" style="display: inline-block;">
+                    @if (Model.Photo != null)
+                    {
+                        <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Photo)" alt="ID Photo" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #f8f5f0; background: #fff;" />
+                    }
+                    else
+                    {
+                        <img src="https://ui-avatars.com/api/?name=@Uri.EscapeDataString(Model.Name ?? "U")&background=0D8ABC&color=fff&size=200" alt="Placeholder" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #f8f5f0;" />
+                    }
+                </div>
+            </div>
+
+            <!-- Employee Info Data -->
+            <div class="text-center px-4 mt-3">
+                <h3 class="fw-bold text-dark mb-4" style="font-size: 1.4rem;">@Model.Name</h3>
+                
+                <div class="text-start mt-2">
+                    <div class="mb-3">
+                        <small class="text-muted text-uppercase d-block mb-1" style="font-size: 0.65rem; letter-spacing: 1px;"><i class="bi bi-person-badge text-primary me-1"></i> ID NUMBER</small>
+                        <div class="fw-semibold text-dark border-bottom pb-1">EMP-@(Model.Id.ToString("D5"))</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <small class="text-muted text-uppercase d-block mb-1" style="font-size: 0.65rem; letter-spacing: 1px;"><i class="bi bi-credit-card mx-1 text-primary"></i> AADHAAR</small>
+                        <div class="fw-semibold text-dark border-bottom pb-1">@Model.Aadhaar</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <small class="text-muted text-uppercase d-block mb-1" style="font-size: 0.65rem; letter-spacing: 1px;"><i class="bi bi-calendar fw-bold mx-1 text-primary"></i> D.O.B</small>
+                            <div class="fw-semibold text-dark">@Model.DateOfBirth.ToString("dd MMM yyyy")</div>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <small class="text-muted text-uppercase d-block mb-1" style="font-size: 0.65rem; letter-spacing: 1px;"><i class="bi bi-box-arrow-in-right fw-bold mx-1 text-primary"></i> JOINING</small>
+                            <div class="fw-semibold text-dark">@Model.JoiningDate.ToString("dd MMM yyyy")</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Footer Bar -->
+            <div class="position-absolute bottom-0 w-100 text-center py-2 bg-light border-top" style="font-size: 0.70rem;">
+                <div class="fw-bold" style="font-family: 'Plus Jakarta Sans', sans-serif;">EMPOWER SYSTEMS PVT LTD</div>
+            </div>
+            
+            <!-- Hologram / security layer purely visual -->
+            <div class="position-absolute" style="bottom: 15px; right: 15px; width: 30px; height: 30px; background: linear-gradient(45deg, rgba(238,174,202,0.4) 0%, rgba(148,187,233,0.4) 100%); border-radius: 4px; z-index: 10;">
+                 <i class="bi bi-shield-check text-white d-block text-center mt-1 position-relative shadow-sm" style="font-size: 14px;"></i>
+            </div>
+        </div>
+
+        <!-- Action / Utility Buttons -->
+        <div class="mt-5 d-flex gap-3 d-print-none">
+            <a asp-action="Index" class="btn btn-light shadow-sm">
+                <i class="bi bi-arrow-left"></i> Back to Directory
+            </a>
+            <button onclick="window.print()" class="btn btn-primary shadow-sm px-4">
+                <i class="bi bi-printer-fill me-2"></i> Print ID Card
+            </button>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Add print styles specifically so the rest of the application hides when printing */
+    @@media print {
+        body * {
+            visibility: hidden;
+        }
+        .id-card-container, .id-card-container * {
+            visibility: visible;
+        }
+        .id-card-container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #ccc !important;
+            box-shadow: none !important;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+    }
+</style>

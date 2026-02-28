@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Empower Systems</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- Additional Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm mb-4">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-2" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="bi bi-layers-fill text-primary" style="font-size: 1.5rem;"></i>
+                    <span>EMPOWER</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1 ms-4">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Employee" asp-action="Create">Onboarding</a>
+                            </li>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold text-primary" asp-area="" asp-controller="Employee" asp-action="Index">Show Employees</a>
+                                </li>
+                            }
+                        }
+                    </ul>
+                    <div class="d-flex align-items-center gap-3">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            var role = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Role)?.Value ?? "User";
+                            <div class="text-muted small fw-medium">@User.Identity.Name (@role)</div>
+                            <img src="https://ui-avatars.com/api/?name=@User.Identity.Name&background=4F46E5&color=fff&bold=true" class="rounded-circle" width="36" height="36" alt="Avatar" />
+                            <form class="d-inline" asp-area="" asp-controller="Account" asp-action="Logout" method="post">
+                                <button type="submit" class="btn btn-sm btn-outline-danger">Logout</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a class="btn btn-sm btn-primary" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container flex-grow-1">
+        <main role="main" class="pb-5">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="mt-auto py-4 bg-white border-top">
+        <div class="container text-center text-muted small">
+            &copy; 2026 - Empower Systems - <a class="text-muted text-decoration-none" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Policy</a>
+        </div>
+    </footer>
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

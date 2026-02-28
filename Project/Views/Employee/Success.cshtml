@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Application Submitted";
+}
+
+<div class="row justify-content-center py-5 mt-5">
+    <div class="col-md-8 col-lg-6">
+        <div class="modern-card text-center py-5" style="border-top: 4px solid var(--bs-success);">
+            <div class="mx-auto rounded-circle bg-success bg-opacity-10 d-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">
+                <i class="bi bi-check2 text-success" style="font-size: 3.5rem;"></i>
+            </div>
+            
+            <h2 class="modern-card-title mb-3">Application Confirmed!</h2>
+            <p class="text-muted mb-5 px-4" style="line-height: 1.6;">
+                The employee application has been successfully submitted and recorded in the system. The internal routing and onboarding process will begin shortly.
+            </p>
+            
+            <div class="d-flex justify-content-center flex-wrap gap-3">
+                <a asp-controller="Home" asp-action="Index" class="btn btn-light px-4 border d-flex align-items-center gap-2">
+                    <i class="bi bi-house"></i> Return Home
+                </a>
+                <a asp-controller="Employee" asp-action="Create" class="btn btn-primary px-4 d-flex align-items-center gap-2 border-0">
+                    <i class="bi bi-person-plus"></i> Submit Another
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+                <h1 class="display-4 fw-bold text-dark mb-4" style="letter-spacing: -1px;">Streamline Your Workforce</h1>
+                <p class="lead text-muted mx-auto" style="max-width: 600px;">
+                    A modern, industry-standard solution for managing employee applications, records, and internal onboarding seamlessly.
+                </p>
+                <div class="mt-5 d-flex justify-content-center gap-3">
+                    <a asp-controller="Employee" asp-action="Create" class="btn btn-primary btn-lg d-flex align-items-center gap-2 px-4">
+                        <i class="bi bi-plus-circle"></i>
+                        Onboard New Employee
+                    </a>
+                    <a href="https://learn.microsoft.com/aspnet/core" target="_blank" class="btn btn-light btn-lg d-flex align-items-center gap-2 px-4 shadow-sm text-dark bg-white">
+                        <i class="bi bi-book"></i>
+                        View Documentation
+                    </a>
+                </div>
+            </div>
+
+            <div class="row g-4 mt-5">
+                <div class="col-md-4">
+                    <div class="modern-card p-4 h-100 border-0 shadow-sm transition-all" style="background: linear-gradient(145deg, #ffffff, #f9fafb)">
+                        <h4 class="fw-bold h5">Employee Management</h4>
+                        <p class="text-muted small mb-0 mt-2 line-height-base">Efficiently track information across departments with a unified system of truth, avoiding common data silos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="modern-card p-4 h-100 border-0 shadow-sm transition-all" style="background: linear-gradient(145deg, #ffffff, #f9fafb)">
+                        <h4 class="fw-bold h5">Secure Operations</h4>
+                        <p class="text-muted small mb-0 mt-2 line-height-base">Role-based access ensures sensitive compensation and PII data stays protected and fully compliant with privacy standards.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="modern-card p-4 h-100 border-0 shadow-sm transition-all" style="background: linear-gradient(145deg, #ffffff, #f9fafb)">
+                        <h4 class="fw-bold h5">Analytics Dashboard</h4>
+                        <p class="text-muted small mb-0 mt-2 line-height-base">Gain critical insights into your company's growth trends, average tenure, and operational health at a glance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

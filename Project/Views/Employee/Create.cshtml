@@ -1,0 +1,100 @@
+﻿@model EmployeeApp.Models.Employee
+
+@{
+    ViewData["Title"] = "Add Employee";
+}
+
+<div class="row justify-content-center py-4">
+    <div class="col-lg-8 col-md-10">
+        <div class="modern-card">
+            <div class="modern-card-header">
+                <h2 class="modern-card-title">Employee Application</h2>
+                <p class="modern-card-subtitle">Fill in the required information to onboard a new employee.</p>
+            </div>
+            
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div class="row gx-4">
+                    <div class="col-md-6 mb-4">
+                        <label asp-for="Name" class="form-label">Full Name</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0 text-muted">
+                                <i class="bi bi-person"></i>
+                            </span>
+                            <input asp-for="Name" class="form-control border-start-0 ps-0" placeholder="e.g. John Doe" />
+                        </div>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <label asp-for="Aadhaar" class="form-label">Aadhaar Number</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0 text-muted">
+                                <i class="bi bi-credit-card mx-1"></i>
+                            </span>
+                            <input asp-for="Aadhaar" class="form-control border-start-0 ps-0" placeholder="0000 0000 0000" />
+                        </div>
+                        <span asp-validation-for="Aadhaar" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label">Profile Photo (Optional)</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0 text-muted">
+                            <i class="bi bi-camera"></i>
+                        </span>
+                        <input type="file" name="uploadPhoto" class="form-control border-start-0 ps-0" accept="image/*" />
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Address" class="form-label">Permanent Address</label>
+                    <textarea asp-for="Address" class="form-control" rows="3" placeholder="Enter complete address..."></textarea>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="row gx-4">
+                    <div class="col-md-4 mb-4">
+                        <label asp-for="DateOfBirth" class="form-label">Date of Birth</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0 text-muted">
+                                <i class="bi bi-calendar"></i>
+                            </span>
+                            <input asp-for="DateOfBirth" class="form-control border-start-0 ps-0" type="date" />
+                        </div>
+                        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <label asp-for="JoiningDate" class="form-label">Date of Joining</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0 text-muted">
+                                <i class="bi bi-calendar-check"></i>
+                            </span>
+                            <input asp-for="JoiningDate" class="form-control border-start-0 ps-0" type="date" />
+                        </div>
+                        <span asp-validation-for="JoiningDate" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <label asp-for="Salary" class="form-label">Annual Salary <span class="text-muted fw-normal">(INR)</span></label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0 text-muted fw-bold ps-3">₹</span>
+                            <input asp-for="Salary" class="form-control border-start-0 ps-2" placeholder="500000" type="number" />
+                        </div>
+                        <span asp-validation-for="Salary" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-end gap-3 mt-4 pt-4 border-top">
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-light px-4">Cancel</a>
+                    <button type="submit" class="btn btn-primary d-flex align-items-center gap-2 px-4 border-0">
+                        <i class="bi bi-check2-circle"></i>
+                        Submit Application
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

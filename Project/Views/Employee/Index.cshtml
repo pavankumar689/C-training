@@ -1,0 +1,72 @@
+@model IEnumerable<EmployeeApp.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employees List";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="fw-bold"><i class="bi bi-people-fill text-primary me-2"></i>Employees Directory</h2>
+    <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-lg me-1"></i> Add Employee</a>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-0 table-responsive">
+        <table class="table table-hover mb-0 align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th class="ps-4">@Html.DisplayNameFor(model => model.Name)</th>
+                    <th>@Html.DisplayNameFor(model => model.Aadhaar)</th>
+                    <th>@Html.DisplayNameFor(model => model.DateOfBirth)</th>
+                    <th>@Html.DisplayNameFor(model => model.JoiningDate)</th>
+                    <th>@Html.DisplayNameFor(model => model.Salary)</th>
+                    <th>ID Card</th>
+                    <th class="text-end pe-4">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="ps-4 fw-medium text-dark">
+                            <div class="d-flex align-items-center gap-2">
+                                @if (item.Photo != null)
+                                {
+                                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(item.Photo)" class="rounded-circle shadow-sm border border-secondary border-opacity-25" style="width: 32px; height: 32px; object-fit: cover;" alt="avatar"/>
+                                }
+                                else
+                                {
+                                    <img src="https://ui-avatars.com/api/?name=@Uri.EscapeDataString(item.Name ?? "U")&background=random&color=fff&size=32" class="rounded-circle shadow-sm" style="width: 32px; height: 32px;" alt="avatar"/>
+                                }
+                                @Html.DisplayFor(modelItem => item.Name)
+                            </div>
+                        </td>
+                        <td>@Html.DisplayFor(modelItem => item.Aadhaar)</td>
+                        <td>@item.DateOfBirth.ToString("dd MMM yyyy")</td>
+                        <td>@item.JoiningDate.ToString("dd MMM yyyy")</td>
+                        <td class="fw-semibold text-success">₹@item.Salary.ToString("N2")</td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-light border shadow-sm">
+                                <i class="bi bi-person-badge text-primary"></i> View
+                            </a>
+                        </td>
+                        <td class="text-end pe-4">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">
+                                <i class="bi bi-pencil-square"></i> Edit
+                            </a>
+                        </td>
+                    </tr>
+                }
+                
+                @if (!Model.Any())
+                {
+                    <tr>
+                        <td colspan="7" class="text-center py-5 text-muted">
+                            <i class="bi bi-folder2-open display-4 d-block mb-3"></i>
+                            No employees found. Start by adding one!
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
