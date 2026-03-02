@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+bin/
+obj/
+Debug/
+Release/
+
+# Logs
+*.log
+*.txt
+
+# ASP.NET
+wwwroot/lib/
+
+# NuGet
+*.nupkg
+project.assets.json
+
+# OS files
+.DS_Store
+Thumbs.db

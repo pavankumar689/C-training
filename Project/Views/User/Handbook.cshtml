@@ -1,0 +1,64 @@
+@{
+    ViewData["Title"] = "Digital Employee Handbook";
+}
+
+<div class="row justify-content-center pt-5 pb-5">
+    <div class="col-lg-8">
+        <h1 class="display-5 fw-bold text-dark mb-4 text-center">Employee Handbook</h1>
+        <p class="lead text-muted text-center mb-5">Welcome to the Empower Systems internal guidelines and policies.</p>
+
+        <div class="accordion shadow-sm border-0" id="handbookAccordion">
+            <!-- Section 1 -->
+            <div class="accordion-item border-bottom mb-3 rounded overflow-hidden">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button bg-light fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="bi bi-calendar-heart text-primary me-3 fs-5"></i> Time Off & Holidays
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#handbookAccordion">
+                    <div class="accordion-body bg-white text-muted">
+                        <p><strong>Paid Time Off (PTO):</strong> Full-time employees accrue 20 days of paid time off per calendar year. New hires accrue PTO at a rate of 1.66 days per month during their first year.</p>
+                        <p><strong>Sick Leave:</strong> Employees receive 10 days of paid sick leave annually. Unused sick leave rolls over up to a maximum of 30 days.</p>
+                        <p><strong>Holidays:</strong> Empower Systems observes 12 public holidays. A detailed calendar is emailed to all staff in January.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 2 -->
+            <div class="accordion-item border-bottom mb-3 rounded overflow-hidden">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed bg-light fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="bi bi-briefcase text-primary me-3 fs-5"></i> Work Standards & Dress Code
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#handbookAccordion">
+                    <div class="accordion-body bg-white text-muted">
+                        <p><strong>Working Hours:</strong> Standard office hours are 9:00 AM to 5:00 PM, Monday through Friday. We support flexible schedules with core hours between 10:00 AM and 3:00 PM.</p>
+                        <p><strong>Dress Code:</strong> "Dress for your day." Smart casual is expected in the office. If you are meeting with clients, professional business attire is required.</p>
+                        <p><strong>Remote Work:</strong> Eligible employees may work remotely up to 3 days per week, subject to manager approval.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 3 -->
+            <div class="accordion-item border-bottom mb-3 rounded overflow-hidden">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed bg-light fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="bi bi-pc-display text-primary me-3 fs-5"></i> IT & Security
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#handbookAccordion">
+                    <div class="accordion-body bg-white text-muted">
+                        <p><strong>Equipment:</strong> All company-issued laptops and devices must be used strictly for business purposes.</p>
+                        <p><strong>Data Privacy:</strong> Do not share employee PII (Personally Identifiable Information) or sensitive client data outside of secure, approved channels.</p>
+                        <p><strong>Support:</strong> For IT assistance, please contact it-support@empowersystems.internal or visit the helpdesk on the 4th floor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <p class="text-muted small">Need clarification? Use the HR Helper Bot in the corner of your screen!</p>
+        </div>
+    </div>
+</div>

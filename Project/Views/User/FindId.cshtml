@@ -1,0 +1,34 @@
+@{
+    ViewData["Title"] = "Find My ID Card";
+}
+
+<div class="row justify-content-center pt-5">
+    <div class="col-md-6 text-center">
+        <i class="bi bi-person-badge display-1 text-primary mb-3 d-block"></i>
+        <h2 class="fw-bold mb-3">Retrieve Digital ID Card</h2>
+        <p class="text-muted mb-4">Enter your Employee ID Number below to securely access to view or print your digital corporate ID badge.</p>
+
+        <div class="card shadow-sm border-0 p-4">
+            <form asp-action="FindId" method="post" class="d-flex flex-column gap-3">
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger mb-3 p-2 small">
+                        <i class="bi bi-exclamation-triangle-fill me-1"></i> @TempData["ErrorMessage"]
+                    </div>
+                }
+
+                <div>
+                    <label class="form-label fw-bold text-start w-100">Employee ID Number (e.g., 5)</label>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-text bg-white border-end-0 text-muted">EMP-</span>
+                        <input type="number" name="employeeId" class="form-control border-start-0 ps-0" placeholder="00010" required />
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg mt-2">
+                    <i class="bi bi-search me-2"></i> Find ID Card
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
