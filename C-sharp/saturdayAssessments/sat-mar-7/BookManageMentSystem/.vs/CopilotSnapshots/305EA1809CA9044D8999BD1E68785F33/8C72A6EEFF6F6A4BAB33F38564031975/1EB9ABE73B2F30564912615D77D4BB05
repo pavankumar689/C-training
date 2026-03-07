@@ -1,0 +1,11 @@
+﻿using BookManageMentSystem.Models;
+using System.Collections;
+namespace BookManageMentSystem.Repositories
+{
+    public class DictionaryBookRepository
+    {
+        Dictionary<int, Book> books = new Dictionary<int, Book>();
+        books
+
+    }
+}

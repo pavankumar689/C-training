@@ -1,0 +1,45 @@
+@model BookManageMentSystem.Models.Book
+
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">@ViewData["Title"]</h1>
+
+    @if (Model == null)
+    {
+        <div class="alert alert-danger">
+            <p>Book not found.</p>
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h3 class="mb-0">@Model.Name</h3>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">Book ID:</dt>
+                    <dd class="col-sm-9">@Model.BookId</dd>
+
+                    <dt class="col-sm-3">Name:</dt>
+                    <dd class="col-sm-9">@Model.Name</dd>
+
+                    <dt class="col-sm-3">Author:</dt>
+                    <dd class="col-sm-9">@Model.Author</dd>
+
+                    <dt class="col-sm-3">Price:</dt>
+                    <dd class="col-sm-9">
+                        <span class="badge bg-success fs-6">$@Model.Price.ToString("F2")</span>
+                    </dd>
+                </dl>
+            </div>
+            <div class="card-footer">
+                <a asp-action="Index" class="btn btn-primary">View All Books</a>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to Home</a>
+            </div>
+        </div>
+    }
+</div>

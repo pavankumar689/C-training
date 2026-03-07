@@ -1,0 +1,18 @@
+﻿using BookManageMentSystem.Models;
+namespace BookManageMentSystem.Repositories
+{
+    public class DictionaryBookRepository : IBookRepository
+    {
+        private Dictionary<int, Book> books = new Dictionary<int, Book>();
+
+        public List<Book> GetAllBooks()
+        {
+            return books.Values.ToList();
+        }
+
+        public void AddBook(Book book)
+        {
+            books[book.BookId] = book;
+        }
+    }
+}

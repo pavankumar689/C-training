@@ -1,0 +1,38 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using BookManageMentSystem.Repositories;
+
+namespace BookManageMentSystem.Controllers
+{
+    public class BookController : Controller
+    {
+        private readonly IBookRepository _bookRepository;
+
+        public BookController(IBookRepository bookRepository)
+        {
+            _bookRepository = bookRepository;
+        }
+
+        public IActionResult Index()
+        {
+            var books = _bookRepository.GetAllBooks();
+            return View(books);
+        }
+
+        public IActionResult ListByPrice(double price)
+        {
+            var books = _bookRepository.GetBooksByPrice(price);
+            ViewBag.MaxPrice = price;
+            return View(books);
+        }
+
+        public IActionResult BookByName(string name)
+        {
+            var book = _bookRepository.GetBookByName(name);
+            if (book == null)
+            {
+                return NotFound();
+            }
+            return View(book);
+        }
+    }
+}

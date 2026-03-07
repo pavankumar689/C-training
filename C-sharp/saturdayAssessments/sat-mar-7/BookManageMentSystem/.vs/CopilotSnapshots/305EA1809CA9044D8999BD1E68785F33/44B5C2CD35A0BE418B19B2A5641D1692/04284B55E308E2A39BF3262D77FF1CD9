@@ -1,0 +1,9 @@
+﻿using BookManageMentSystem.Models;
+namespace BookManageMentSystem.Repositories
+{
+    public interface IBookRepository
+    {
+        List<Book> GetAllBooks();
+        void AddBook(Book book);
+    }
+}
