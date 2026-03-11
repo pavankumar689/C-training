@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#_trining\\Webapi\\versioning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37B4BED2-3A7D-490F-9584-2F8F6FB6E2EF}|versioning.csproj|d:\\c#_trining\\webapi\\versioning\\controllers\\studentv2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B4BED2-3A7D-490F-9584-2F8F6FB6E2EF}|versioning.csproj|solutionrelative:controllers\\studentv2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B4BED2-3A7D-490F-9584-2F8F6FB6E2EF}|versioning.csproj|d:\\c#_trining\\webapi\\versioning\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B4BED2-3A7D-490F-9584-2F8F6FB6E2EF}|versioning.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B4BED2-3A7D-490F-9584-2F8F6FB6E2EF}|versioning.csproj|d:\\c#_trining\\webapi\\versioning\\versioning.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{37B4BED2-3A7D-490F-9584-2F8F6FB6E2EF}|versioning.csproj|solutionrelative:versioning.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B4BED2-3A7D-490F-9584-2F8F6FB6E2EF}|versioning.csproj|d:\\c#_trining\\webapi\\versioning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B4BED2-3A7D-490F-9584-2F8F6FB6E2EF}|versioning.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentV2Controller.cs",
+              "DocumentMoniker": "D:\\C#_trining\\Webapi\\versioning\\Controllers\\StudentV2Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentV2Controller.cs",
+              "ToolTip": "D:\\C#_trining\\Webapi\\versioning\\Controllers\\StudentV2Controller.cs",
+              "RelativeToolTip": "Controllers\\StudentV2Controller.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T09:03:43.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "versioning.http",
+              "DocumentMoniker": "D:\\C#_trining\\Webapi\\versioning\\versioning.http",
+              "RelativeDocumentMoniker": "versioning.http",
+              "ToolTip": "D:\\C#_trining\\Webapi\\versioning\\versioning.http",
+              "RelativeToolTip": "versioning.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-10T09:03:04.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#_trining\\Webapi\\versioning\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\C#_trining\\Webapi\\versioning\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:58:52.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\C#_trining\\Webapi\\versioning\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\C#_trining\\Webapi\\versioning\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:56:11.997Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

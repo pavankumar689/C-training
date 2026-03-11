@@ -1,0 +1,15 @@
+D:\C#_trining\Webapi\StudentApiClient\bin\Debug\net10.0\StudentApiClient.exe
+D:\C#_trining\Webapi\StudentApiClient\bin\Debug\net10.0\StudentApiClient.deps.json
+D:\C#_trining\Webapi\StudentApiClient\bin\Debug\net10.0\StudentApiClient.runtimeconfig.json
+D:\C#_trining\Webapi\StudentApiClient\bin\Debug\net10.0\StudentApiClient.dll
+D:\C#_trining\Webapi\StudentApiClient\bin\Debug\net10.0\StudentApiClient.pdb
+D:\C#_trining\Webapi\StudentApiClient\obj\Debug\net10.0\StudentApiClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\Webapi\StudentApiClient\obj\Debug\net10.0\StudentApiClient.AssemblyInfoInputs.cache
+D:\C#_trining\Webapi\StudentApiClient\obj\Debug\net10.0\StudentApiClient.AssemblyInfo.cs
+D:\C#_trining\Webapi\StudentApiClient\obj\Debug\net10.0\StudentApiClient.csproj.CoreCompileInputs.cache
+D:\C#_trining\Webapi\StudentApiClient\obj\Debug\net10.0\StudentApiClient.sourcelink.json
+D:\C#_trining\Webapi\StudentApiClient\obj\Debug\net10.0\StudentApiClient.dll
+D:\C#_trining\Webapi\StudentApiClient\obj\Debug\net10.0\refint\StudentApiClient.dll
+D:\C#_trining\Webapi\StudentApiClient\obj\Debug\net10.0\StudentApiClient.pdb
+D:\C#_trining\Webapi\StudentApiClient\obj\Debug\net10.0\StudentApiClient.genruntimeconfig.cache
+D:\C#_trining\Webapi\StudentApiClient\obj\Debug\net10.0\ref\StudentApiClient.dll

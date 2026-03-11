@@ -1,0 +1,12 @@
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\add numbers between 1 to 100.exe
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\appsettings.Development.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\appsettings.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\add numbers between 1 to 100.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\add numbers between 1 to 100.deps.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\add numbers between 1 to 100.runtimeconfig.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\add numbers between 1 to 100.pdb
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Release\net10.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

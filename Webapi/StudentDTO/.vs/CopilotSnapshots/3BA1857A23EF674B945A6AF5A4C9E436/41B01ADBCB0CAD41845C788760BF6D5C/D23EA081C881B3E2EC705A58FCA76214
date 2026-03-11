@@ -1,0 +1,40 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using StudentDTO.DTO;
+using StudentDTO.Models;
+
+namespace StudentDTO.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class StudentController : Controller
+    {
+        private static List<Student> students = new List<Student>();
+        [HttpPost]
+        public IActionResult CreateStudent(createRequestDTo request)
+        {
+            Student student = new Student
+            {
+                Id = students.Count + 1,
+                Name = request.Name,
+                Age = request.Age,
+            };
+
+            students.Add(student);
+
+            return Ok(student.Id);
+        }
+        [HttpPut]
+        public IActionResult UpdateStudent(UpdateRequestDTO request)
+        {
+            Student s = students.FirstOrDefault(s => s.Id == request.Id);
+            if (s == null)
+                return NotFound();
+            s.m1 = request.m1;
+            s.m2 = request.m2;
+            return Ok(s.Id);
+        }
+        [HttpGet]
+        public IActionResult GetResult(GetResultDTO )
+
+    }
+}

@@ -1,0 +1,6 @@
+@add_numbers_between_1_to_100_HostAddress = http://localhost:5241
+
+GET {{add_numbers_between_1_to_100_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

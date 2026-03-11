@@ -1,0 +1,16 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace sumofthreenumbers.Controllers
+{
+    public class AddingThreeNumbers : Controller
+    {
+        public IActionResult Addition()
+        {
+            int a = 20;
+            int b = 40;
+            int c = 60;
+            int result = a + b + c;
+            return Content(result.ToString());
+        }
+    }
+}

@@ -1,0 +1,38 @@
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\appsettings.Development.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\appsettings.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\add numbers between 1 to 100.staticwebassets.endpoints.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\add numbers between 1 to 100.exe
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\add numbers between 1 to 100.deps.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\add numbers between 1 to 100.runtimeconfig.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\add numbers between 1 to 100.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\add numbers between 1 to 100.pdb
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\Microsoft.OpenApi.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numbers between 1 to 100.csproj.AssemblyReference.cache
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numbers between 1 to 100.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numbers between 1 to 100.AssemblyInfoInputs.cache
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numbers between 1 to 100.AssemblyInfo.cs
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numbers between 1 to 100.csproj.CoreCompileInputs.cache
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numbers between 1 to 100.MvcApplicationPartsAssemblyInfo.cs
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numbers between 1 to 100.MvcApplicationPartsAssemblyInfo.cache
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numbers between 1 to 100.sourcelink.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\scopedcss\bundle\add numbers between 1 to 100.styles.css
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\staticwebassets.build.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\staticwebassets.development.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\swae.build.ex.cache
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numb.1C0907E8.Up2Date
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numbers between 1 to 100.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\refint\add numbers between 1 to 100.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numbers between 1 to 100.pdb
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\add numbers between 1 to 100.genruntimeconfig.cache
+D:\C#_trining\Webapi\add numbers between 1 to 100\obj\Debug\net10.0\ref\add numbers between 1 to 100.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\C#_trining\Webapi\add numbers between 1 to 100\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,0 +1,6 @@
+@sumofthreenumbers_HostAddress = http://localhost:5090
+
+GET {{sumofthreenumbers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

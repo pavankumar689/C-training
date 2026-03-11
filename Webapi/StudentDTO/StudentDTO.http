@@ -1,0 +1,6 @@
+@StudentDTO_HostAddress = http://localhost:5241
+
+GET {{StudentDTO_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
